@@ -1,7 +1,12 @@
 <?php
   function add_style() {
     //wordpress ajoute a la feuille de style ce qu'il doit enregistrer, viens dans les fichier et prend le fichier style.css, false = pas de dépendance envers d'autres fichiers
+    wp_enqueue_style('reset-style', get_template_directory_uri() . '/reset.css', false);
     wp_enqueue_style('main-style', get_template_directory_uri() . '/style.css', false);
+    wp_enqueue_style('footer-style', get_template_directory_uri() . '/footer.css', false);
+    wp_enqueue_style('header-style', get_template_directory_uri() . '/header.css', false);
+    
+    
   }
   add_action( 'wp_enqueue_scripts', 'add_style' );
 
