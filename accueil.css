@@ -1,0 +1,160 @@
+.hero-section{
+    padding: 102px 122px 109px 121px;
+    display: flex;
+
+    .hero-container{
+        
+        h2{
+            margin-top: 20px;
+        }
+    }
+}
+
+.chemin-section{
+    display: flex;
+    padding: 0 95px 202px 95px;
+    
+
+
+    
+}
+
+
+.quiz-container{
+    background-image: url(http://wordpress.test/wp-content/uploads/2025/01/bulle-gauche.svg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 100px;
+    
+    
+    
+    .quiz-text{
+        max-width: 466px;
+        
+
+        h2{
+            margin-bottom: 41px;
+            
+        }
+    }
+    .quiz-button{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        a{
+            background-color: white;
+            border-radius: 100px;
+            padding: 13px 24px 13px 24px;
+            text-decoration: none;
+            margin: 40px 0 40px 0;
+
+            display: flex;
+            align-items: center;
+
+            color: #333D7B;
+            font-size: 1.25rem;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            line-height: 30px;
+            
+            img{
+                margin-left: 10px;
+            }
+            
+        }
+        a:hover{
+            background-color: #333D7B;
+            color: #FFE2CC;
+        }
+        a:hover img{
+            filter: invert(1) brightness(2);
+        }
+        
+        .coeur-img{
+            width: 162px;
+            height: 125px;
+        }
+        
+    }
+}
+
+
+
+
+.guide-container{
+    background-image: url(http://wordpress.test/wp-content/uploads/2025/01/bulle-droite.svg) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 100px;
+    
+    
+    
+    .quiz-text{
+        max-width: 466px;
+        
+
+        h2{
+            margin-bottom: 31px;
+            
+        }
+    }
+    .quiz-button{
+        display: flex;
+        align-items: center;
+        
+        a{
+            background-color: white;
+            border-radius: 100px;
+            padding: 13px 24px 13px 24px;
+            text-decoration: none;
+            margin: 40px 0 40px 0;
+
+            display: flex;
+            align-items: center;
+
+            color: #333D7B;
+            font-size: 1.25rem;
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            line-height: 30px;
+            
+            img{
+                margin-left: 10px;
+            }
+        }
+        a:hover{
+            background-color: #333D7B;
+            color: #FFE2CC;
+        }
+        a:hover img{
+            filter: invert(1) brightness(2);
+        }
+        
+        .coeur-img{
+            width: 10.125rem;
+            height: 7.8125rem;
+        }
+        
+    }
+}
+/* Responsive test */
+@media (min-width: 768px) {
+    .hero-section {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .chemin-section {
+        flex-direction: row;
+    }
+
+    .quiz-container, .guide-container {
+        padding: 5%;
+    }
+
+    .quiz-button {
+        flex-direction: row;
+    }
+}

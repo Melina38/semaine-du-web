@@ -1,7 +1,7 @@
 <footer>
    <section class="footer">
     <div class="footer-container">
-      <img class="logo-footer" src="<?php echo get_template_directory_uri(); ?>/img/logo-footer.svg" alt="logo" width="170" height="106">
+      <a href="index.php"><img class="logo-footer" src="<?php echo get_template_directory_uri(); ?>/img/logo-footer.svg" alt="logo" width="170" height="106"></a>
       <ul>
         <li class="colonne1"><a class="liens-footer" href="">Sexualité et genre</a></li>
         <li class="colonne1"><a class="liens-footer" href="">Violences <br>sexuelles</a></li>
