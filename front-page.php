@@ -3,60 +3,96 @@
 
   <section class="hero-section container">
       <div class="hero-container">
-          <h1>Comprendre et accompagner les patients ayant des comportements sexuels problématiques ou ayant subit des violences :</h1>
-          <h2>Découvrez le guide adressé aux professionnels du soin !</h2>
+        <?php 
+        $hero_groupe = get_field("hero-header");
+        //echo '<pre>'; 
+        //var_dump($hero_groupe);
+        //echo '</pre>';
+        ?>
+          <h1><?php echo $hero_groupe["titre"];?></h1>
+          <h2><?php echo $hero_groupe["sous-titre"];?></h2>
       </div>
       <div class="hero-image">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/hero-image.svg" alt="personnage rose qui aide un personnage bleu triste">
+          <img src="<?php echo $hero_groupe["hero-image"]["url"];?>" alt="personnage rose qui aide un personnage bleu triste">
       </div>
   </section>
+
+
+  <?php 
+        $quiz_groupe = get_field("quiz_groupe");
+        //echo '<pre>'; 
+        //var_dump($quiz_groupe);
+        //echo '</pre>';
+        ?>
+
+
 
   <section class="chemin-section container">
     <div class="quiz-container">
   <!--<img src="http://wordpress.test/wp-content/uploads/2025/01/bulle-gauche.svg" alt="coeur rose enthousiaste qui tent les bras pour montrer le bouton"> -->
       <div class="quiz-text">
-        <h2>Déjà sensibilisé(e) aux violences sexuelles ?</h2>
-        <h3>Testez vos connaissances sur les comportements sexuels problématiques et les violences sexuelles</h3>
+        <h2><?php echo $quiz_groupe["titre"];?></h2>
+        <h3><?php echo $quiz_groupe["sous-titre"];?></h3>
       </div>
       
       <div class="quiz-button">
-        <a href="">Démarrer le quiz<img src="<?php echo get_template_directory_uri(); ?>/img/quiz.svg" alt="Petite case cocher et point d'interogation"></a>
-        <img class="coeur-img" src="<?php echo get_template_directory_uri(); ?>/img/coeur-quiz.svg" alt="coeur rose enthousiaste qui tent les bras pour montrer le bouton">
+        <a href="">Démarrer le quiz<img src="<?php echo $quiz_groupe["bouton-image"]["url"];?>" alt="Petite case cocher et point d'interogation"></a>
+        <img class="coeur-img" src="<?php echo $quiz_groupe["image"]["url"];?>" alt="coeur rose enthousiaste qui tent les bras pour montrer le bouton">
       </div>
       
 
     </div>
 
 
+
+     <?php 
+        $guide_groupe = get_field("guide_groupe");
+        //echo '<pre>'; 
+        //var_dump($guide_groupe);
+        //echo '</pre>';
+        ?>
+
+
     <div class="guide-container">
         <div class="quiz-text">
-            <h2>Le sujet des violences sexuelles vous semble complexe ?</h2>
-            <h3>Pas de panique : nos articles sont là pour vous guider et vous donner toutes les clés nécessaires.</h3>
+            <h2><?php echo $guide_groupe["titre"];?></h2>
+            <h3><?php echo $guide_groupe["sous-titre"];?></h3>
         </div>
           
           <div class="quiz-button">
-            <a href="">Se laissez guider<img src="<?php echo get_template_directory_uri(); ?>/img/icon.svg" alt="Petite case cocher et point d'interogation"></a>
-            <img class="coeur-img" src="<?php echo get_template_directory_uri(); ?>/img/triangle-guide.svg" alt="coeur rose enthousiaste qui tent les bras pour montrer le bouton">
+            <a href="<?php echo $guide_groupe["lien-bouton"]["url"];?>"><?php echo $guide_groupe["lien-bouton"]["title"];?><img src="<?php echo $guide_groupe["image-bouton"]["url"];?>" alt="Petite case cocher et point d'interogation"></a>
+            <img class="coeur-img" src="<?php echo $guide_groupe["image"]["url"];?>" alt="triangle violet enthousiaste qui tent les bras pour montrer le bouton">
           </div>
     </div>
 
   </section>
 
-
-  <section class="categories-section container">
+  <?php
+        $tout_savoir = get_field("tout_savoir");
+        ?>
+  <section class="categories-section container" id="guide">
     <div class="titre-categories">
       <h1>Tout savoir sur les violences sexuelles</h1>
       <a href="">Voir plus d'articles</a>
     </div>
     
     <div class="categories-container">
-
-      <a href="">
+    <?php
+        foreach ($tout_savoir['list'] as $element) {
+          ?>
+          
+          <a href="">
         <div class="categorie-div">
           <img src="http://wordpress.test/wp-content/uploads/2025/01/orange.svg" alt="icone de la categorie">
           <h3>Qui sont les victimes de violences sexuelles ?</h3>
         </div>
       </a>
+          
+          
+          <?php
+        }
+        ?>
+     
       
       <a href="">
         <div class="categorie-div">

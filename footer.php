@@ -1,6 +1,6 @@
-<footer>
+<footer >
    <section class="footer">
-    <div class="footer-container">
+    <div class="footer-container container">
       <a href="index.php"><img class="logo-footer" src="<?php echo get_template_directory_uri(); ?>/img/logo-footer.svg" alt="logo" width="170" height="106"></a>
       <ul>
         <li class="colonne1"><a class="liens-footer" href="">Sexualité et genre</a></li>
@@ -30,7 +30,7 @@
 
     <div class="legal-container">
       <ul>
-        <li class="colonne3"><a class="liens-bas-footer" href="">mentions légales</a></li>
+        <li class="colonne3"><a class="liens-bas-footer" href="">Mentions légales</a></li>
       </ul>
       <ul>
         <li class="colonne3"><a class="liens-bas-footer" href="">Données personnelles et cookies</a></li>

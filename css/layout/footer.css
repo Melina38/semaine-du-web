@@ -9,7 +9,7 @@ Version:1.0.0
 }
 .footer-container{
     display: flex;
-    padding: 47px 157px 10px 122px ;
+    padding: 47px 0 10px 0;
 
 
 }

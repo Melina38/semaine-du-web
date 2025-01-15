@@ -17,7 +17,7 @@
 </head>
 <body>
   <header class="container header">
-    <a href="index.php"><img class="logo-footer" src="<?php echo get_template_directory_uri(); ?>/img/logo-footer.svg" alt="logo" width="170" height="106"></a>
+    <a href="index.php"><img class="logo-header" src="<?php echo get_template_directory_uri(); ?>/img/logo-footer.svg" alt="logo" width="170" height="106"></a>
     <div>
         <div class="sur-header">
           <p>Proposer le soin le plus adapté aux besoins du mineur</p>
