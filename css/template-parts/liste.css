@@ -1,0 +1,16 @@
+.composant-liste{
+    ul{
+        list-style-type: disc; /* Utilisez 'disc' pour des puces classiques */
+        padding-left: 20px; /* Ajoutez un padding pour que les puces soient visibles */
+        
+        li{
+            margin-bottom: 10px; /* Ajoutez un peu d'espace entre les éléments de liste */
+            font-family: "Lato", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #333D7B;
+            font-size: 1rem;
+        }
+    }
+
+}

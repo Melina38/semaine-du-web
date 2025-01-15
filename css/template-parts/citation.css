@@ -13,5 +13,11 @@
         background-color: rgba(244, 137, 172, 0.12);
         border-radius: 12px;
         padding: 13px 10px 7px 10px;
+        font-family: "Lato", serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #333D7B;
+        font-size: 1rem;
+        line-height: 22px;
     }
 }

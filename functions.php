@@ -6,7 +6,17 @@
     wp_enqueue_style('footer-style', get_template_directory_uri() . '/css/layout/footer.css', false);
     wp_enqueue_style('header-style', get_template_directory_uri() . '/css/layout/header.css', false);
     wp_enqueue_style('accueil-style', get_template_directory_uri() . '/css/pages/accueil.css', false);
+
+
     wp_enqueue_style('citation-style', get_template_directory_uri() . '/css/template-parts/citation.css', false);
+    wp_enqueue_style('bloc-texte-image-style', get_template_directory_uri() . '/css/template-parts/bloc-texte-image.css', false);
+    wp_enqueue_style('bloc-image-texte-style', get_template_directory_uri() . '/css/template-parts/bloc-image-texte.css', false);
+    wp_enqueue_style('vignettes-style', get_template_directory_uri() . '/css/template-parts/vignettes.css', false);
+    wp_enqueue_style('titre-style', get_template_directory_uri() . '/css/template-parts/titre.css', false);
+    wp_enqueue_style('titre-image-style', get_template_directory_uri() . '/css/template-parts/titre-image.css', false);
+    wp_enqueue_style('texte-style', get_template_directory_uri() . '/css/template-parts/texte.css', false);
+    wp_enqueue_style('sous-titre-style', get_template_directory_uri() . '/css/template-parts/sous-titre.css', false);
+    wp_enqueue_style('liste-style', get_template_directory_uri() . '/css/template-parts/liste.css', false);
     
     
   }

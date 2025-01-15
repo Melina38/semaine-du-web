@@ -1,0 +1,9 @@
+.composant-bloc-texte-image{
+    display: flex;
+    gap: 36px;
+    padding: 30px 0 30px 0;
+    
+    div{
+        align-content: center;
+    }
+}
