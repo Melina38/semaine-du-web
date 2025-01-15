@@ -12,11 +12,15 @@
     wp_enqueue_style('bloc-texte-image-style', get_template_directory_uri() . '/css/template-parts/bloc-texte-image.css', false);
     wp_enqueue_style('bloc-image-texte-style', get_template_directory_uri() . '/css/template-parts/bloc-image-texte.css', false);
     wp_enqueue_style('vignettes-style', get_template_directory_uri() . '/css/template-parts/vignettes.css', false);
+    wp_enqueue_style('vignette2-style', get_template_directory_uri() . '/css/template-parts/vignette2.css', false);
     wp_enqueue_style('titre-style', get_template_directory_uri() . '/css/template-parts/titre.css', false);
     wp_enqueue_style('titre-image-style', get_template_directory_uri() . '/css/template-parts/titre-image.css', false);
     wp_enqueue_style('texte-style', get_template_directory_uri() . '/css/template-parts/texte.css', false);
     wp_enqueue_style('sous-titre-style', get_template_directory_uri() . '/css/template-parts/sous-titre.css', false);
     wp_enqueue_style('liste-style', get_template_directory_uri() . '/css/template-parts/liste.css', false);
+    wp_enqueue_style('image-style', get_template_directory_uri() . '/css/template-parts/image.css', false);
+    wp_enqueue_style('lien-style', get_template_directory_uri() . '/css/template-parts/lien.css', false);
+    wp_enqueue_style('3bloc-liste-style', get_template_directory_uri() . '/css/template-parts/3bloc-liste.css', false);
     
     
   }

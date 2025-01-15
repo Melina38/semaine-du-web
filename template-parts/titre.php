@@ -1,3 +1,3 @@
 <section class="composant-titre container">
-    <h2>Title</h2>
+    <h2>1. Informations générales </h2>
 </section>

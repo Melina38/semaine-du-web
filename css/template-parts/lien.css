@@ -1,0 +1,13 @@
+.composant-lien{
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333D7B;
+    font-size: 1rem;
+    line-height: 22px;
+    justify-content: right;
+
+    display: flex;
+    gap: 50px;
+    padding: 60px 0 60px 0;
+}

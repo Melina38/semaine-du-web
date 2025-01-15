@@ -1,0 +1,18 @@
+.composant-3bloc-liste{
+    display: flex;
+    gap: 20px;
+    padding: 30px 0 30px 0;
+    align-content: center;
+    div{
+        div{
+            max-width: 225px;
+            
+            text-align: center;
+            p{
+                margin-top: 20px;
+                text-align: center;
+            }
+        }
+        
+    }
+}

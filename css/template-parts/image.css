@@ -1,0 +1,12 @@
+.composant-image{
+    margin: auto;
+    padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    div{
+        background-color: rgba(244, 137, 172, 0.12);
+        border-radius: 12px;
+        padding: 13px 10px 7px 10px;
+    }
+    
+}
