@@ -1,32 +1,17 @@
 <section class="composant-3bloc-liste container">
+  <?php
+  echo('<pre>');
+  var_dump($args);
+  echo('</pre>');
+  ?>
+  <?php foreach($args['blocs'] as $bloc): ?>
     <div>
         <div>
-          <h3>ABUS</h3>
+          <h3><?php echo($bloc['titre']); ?></h3>
           <ul>
-            <li>N’est plus employé</li>
-            <li>Minimise la gravité des actes</li>
+            <?php echo($bloc['contenu']); ?>
           </ul>
         </div>
     </div>
-    <div>
-        <div>
-          
-          <h3>VIOLENCES 
-          SEXUELLES</h3>
-          <ul>
-            <li>N’est plus employé</li>
-            <li>Minimise la gravité des actes</li>
-          </ul>
-        </div>
-    </div>
-    <div>
-        <div>
-          
-          <h3>INFRACTIONS SEXUELLES</h3>
-          <ul>
-            <li>N’est plus employé</li>
-            <li>Minimise la gravité des actes</li>
-          </ul>
-        </div>
-    </div>
+  <?php endforeach; ?>
 </section>
