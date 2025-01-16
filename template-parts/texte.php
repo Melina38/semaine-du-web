@@ -1,3 +1,3 @@
 <section class="composant-texte container">
-    <p>Le terme utilisé pour désigner les violences sexuelles a évolué au fil du temps.</p>
+    <p><?php echo($args['texte']); ?></p>
 </section>

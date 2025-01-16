@@ -1,14 +1,11 @@
 <section class="composant-vignette2 container">
+
+<?php foreach($args['blocs'] as $bloc): ?>
     <div>
         <div>
-          <img src="http://wordpress.test/wp-content/uploads/2025/01/orange.svg" alt="icone de la categorie">
-          <h3>81% des violences sexuelles sont incestueuses, commises par de la famille.</h3>
+          <img src="<?php echo($bloc['image']['url']); ?>" alt="icone de la categorie">
+          <h3><?php echo($bloc['texte']); ?></h3>
         </div>
     </div>
-    <div>
-        <div>
-          <img src="http://wordpress.test/wp-content/uploads/2025/01/orange.svg" alt="icone de la categorie">
-          <h3>81% des violences sexuelles sont incestueuses, commises par de la famille.</h3>
-        </div>
-    </div>
+<?php endforeach; ?>
 </section>

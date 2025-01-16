@@ -78,7 +78,7 @@
     
     <div class="categories-container">
     <?php
-        foreach ($tout_savoir['list'] as $element) {
+        foreach ($tout_savoir['contenu'] as $element) {
           ?>
           
           <a href="">
@@ -154,8 +154,6 @@
                 </a>
             </div>
       </div>
-      <button class="carousel-button prev" onclick="prevSlide()"><img src="<?php echo get_template_directory_uri(); ?>/img/carousel/fleche-gauche.svg" alt="fleche gauche"></button>
-      <button class="carousel-button next" onclick="nextSlide()"><img src="<?php echo get_template_directory_uri(); ?>/img/carousel/fleche-droite.svg" alt="fleche droite"></button>
     </div>
   
   

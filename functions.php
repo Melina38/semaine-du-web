@@ -21,6 +21,7 @@
     wp_enqueue_style('image-style', get_template_directory_uri() . '/css/template-parts/image.css', false);
     wp_enqueue_style('lien-style', get_template_directory_uri() . '/css/template-parts/lien.css', false);
     wp_enqueue_style('3bloc-liste-style', get_template_directory_uri() . '/css/template-parts/3bloc-liste.css', false);
+    wp_enqueue_style('flickity','https://unpkg.com/flickity@2.3.0/dist/flickity.min.css');
     
     
   }
@@ -28,7 +29,11 @@
 
 
   function add_script() {
-    wp_enqueue_script('main-js', get_template_directory_uri() . '/main.js', array(), false, true);
+    wp_enqueue_script('jquery');
+    wp_enqueue_script('flickity-js', 'https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.min.js', array(), false, true);
+    
+    wp_enqueue_script('main-js', get_template_directory_uri() . '/main.js', array('jquery','flickity-js'), false, true);
+    
   }
   add_action( 'wp_enqueue_scripts', 'add_script' );
 

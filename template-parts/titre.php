@@ -1,3 +1,3 @@
 <section class="composant-titre container">
-    <h2>1. Informations générales </h2>
+    <h2><?php echo($args['titre']); ?></h2>
 </section>

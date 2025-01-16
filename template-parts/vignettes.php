@@ -1,26 +1,16 @@
 <section class="composant-vignettes container">
+<?php
+  //echo('<pre>');
+  //var_dump($args);
+  //echo('</pre>');
+  ?>
+<?php foreach($args['blocs'] as $bloc): ?>
     <div>
         <div class="categorie-div">
-          <img src="http://wordpress.test/wp-content/uploads/2025/01/orange.svg" alt="icone de la categorie">
-          <p>81% des violences sexuelles sont incestueuses, commises par de la famille.</p>
+          <img src="<?php echo($bloc['image']['url']); ?>" alt="icone de la categorie">
+          <p><?php echo($bloc['texte']); ?></p>
         </div>
     </div>
-    <div>
-        <div class="categorie-div">
-          <img src="http://wordpress.test/wp-content/uploads/2025/01/orange.svg" alt="icone de la categorie">
-          <p>81% des violences sexuelles sont incestueuses, commises par de la famille.</p>
-        </div>
-    </div>
-    <div>
-        <div class="categorie-div">
-          <img src="http://wordpress.test/wp-content/uploads/2025/01/orange.svg" alt="icone de la categorie">
-          <p>81% des violences sexuelles sont incestueuses, commises par de la famille.</p>
-        </div>
-    </div>
-    <div>
-        <div class="categorie-div">
-          <img src="http://wordpress.test/wp-content/uploads/2025/01/orange.svg" alt="icone de la categorie">
-          <p>81% des violences sexuelles sont incestueuses, commises par de la famille.</p>
-        </div>
-    </div>
+<?php endforeach; ?>
+    
 </section>

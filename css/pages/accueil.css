@@ -208,18 +208,26 @@
     
 }
 
-.carousel {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-}
 
 .carousel-item {
-    min-width: 33.33%; /* Ajustez cette valeur selon le nombre d'éléments que vous souhaitez afficher côte à côte */
+    width: 33.33%; /* Ajustez cette valeur selon le nombre d'éléments que vous souhaitez afficher côte à côte */
     box-sizing: border-box;
     padding: 10px; /* Ajoutez un peu de padding pour l'espacement entre les éléments */
+    margin-right: 51px ;
+    margin-left: 51px;
     
 }
-
+@media (max-width: 420px) {
+    .carousel-item {
+        width: 70%;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .carousel-item h2 {
+        font-size: 20px;
+        line-height: 23px;
+    }
+}
 .carousel-item .lien-carousel {
     display: flex;
     flex-direction: column;
