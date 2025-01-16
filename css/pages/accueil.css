@@ -187,6 +187,19 @@
 }
  */   
 /* Carousel */
+
+.carousel-section{
+    padding: 123px 0 40px 0;
+    div{
+        align-items: center;
+        text-align: center;
+        h2{
+            margin-bottom: 16px;
+        }
+        
+    }
+}
+
 .carousel-container {
     position: relative;
     width: 100%;

@@ -109,48 +109,56 @@
       </a>
       
   </section>
-  <div class="carousel-container container">
-    <div class="carousel">
-        <div class="carousel-item">
-            <a class="lien-carousel" href="">
-                <h2>Développement psychosexuel</h2>
-                <img src="http://wordpress.test/wp-content/uploads/2025/01/psychosexuel.svg" alt="symbole sexe féminin et masculin">
-            </a>
-        </div>
-        <div class="carousel-item">
-            <a class="lien-carousel" href="">
-                <h2>Violences sexuelles</h2>
-                <img src="http://wordpress.test/wp-content/uploads/2025/01/violences.svg" alt="symbole sexe féminin et masculin">
-            </a>
-        </div>
-        <div class="carousel-item">
-            <a class="lien-carousel" href="">
-                <h2>Sexualité et genre</h2>
-                <img src="http://wordpress.test/wp-content/uploads/2025/01/sexualite.svg" alt="symbole sexe féminin et masculin">
-            </a>
-        </div>
-        <div class="carousel-item">
-            <a class="lien-carousel" href="">
-                <h2>Accompagnement</h2>
-                <img src="http://wordpress.test/wp-content/uploads/2025/01/accompagnement.svg" alt="autre sujet">
-            </a>
-        </div>
-        <div class="carousel-item">
-            <a class="lien-carousel" href="">
-                <h2>La loi</h2>
-                <img src="http://wordpress.test/wp-content/uploads/2025/01/loi.svg" alt="autre sujet">
-            </a>
-        </div>
-        <div class="carousel-item">
-            <a class="lien-carousel" href="">
-                <h2>Outils</h2>
-                <img src="http://wordpress.test/wp-content/uploads/2025/01/outils.svg" alt="autre sujet">
-            </a>
-        </div>
-  </div>
-  <button class="carousel-button prev" onclick="prevSlide()"><img src="<?php echo get_template_directory_uri(); ?>/img/carousel/fleche-gauche.svg" alt="fleche gauche"></button>
-  <button class="carousel-button next" onclick="nextSlide()"><img src="<?php echo get_template_directory_uri(); ?>/img/carousel/fleche-droite.svg" alt="fleche droite"></button>
-</div>
+  <section class="carousel-section container">
+      <div>
+        <h2>Vous accompagnez un patient présentant des comportements sexuels problématiques ou victimes de violences sexuelles ?</h2>
+        <h3>Explorez nos différentes catégories et trouvez les ressources adaptées à chaque situation !</h3>
+      </div>
+  </section>
+      <div class="carousel-container container">
+        <div class="carousel">
+            <div class="carousel-item">
+                <a class="lien-carousel" href="">
+                    <h2>Développement psychosexuel</h2>
+                    <img src="http://wordpress.test/wp-content/uploads/2025/01/psychosexuel.svg" alt="symbole sexe féminin et masculin">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a class="lien-carousel" href="">
+                    <h2>Violences sexuelles</h2>
+                    <img src="http://wordpress.test/wp-content/uploads/2025/01/violences.svg" alt="symbole sexe féminin et masculin">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a class="lien-carousel" href="">
+                    <h2>Sexualité et genre</h2>
+                    <img src="http://wordpress.test/wp-content/uploads/2025/01/sexualite.svg" alt="symbole sexe féminin et masculin">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a class="lien-carousel" href="">
+                    <h2>Accompagnement</h2>
+                    <img src="http://wordpress.test/wp-content/uploads/2025/01/accompagnement.svg" alt="autre sujet">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a class="lien-carousel" href="">
+                    <h2>La loi</h2>
+                    <img src="http://wordpress.test/wp-content/uploads/2025/01/loi.svg" alt="autre sujet">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a class="lien-carousel" href="">
+                    <h2>Outils</h2>
+                    <img src="http://wordpress.test/wp-content/uploads/2025/01/outils.svg" alt="autre sujet">
+                </a>
+            </div>
+      </div>
+      <button class="carousel-button prev" onclick="prevSlide()"><img src="<?php echo get_template_directory_uri(); ?>/img/carousel/fleche-gauche.svg" alt="fleche gauche"></button>
+      <button class="carousel-button next" onclick="nextSlide()"><img src="<?php echo get_template_directory_uri(); ?>/img/carousel/fleche-droite.svg" alt="fleche droite"></button>
+    </div>
+  
+  
 
 
 
