@@ -68,25 +68,32 @@
   </section>
 
   <?php
-        $tout_savoir = get_field("tout_savoir");
+        $categories = get_field("categories");
+    //echo('<pre>');
+    //var_dump($categories);
+    //echo('</pre>');
         ?>
   <section class="categories-section container" id="guide">
     <div class="titre-categories">
-      <h1>Tout savoir sur les violences sexuelles</h1>
-      <a href="">Voir plus d'articles</a>
+
+    
+      <h1><?php echo $categories[0]["titre"];?></h1>
+      <a href="<?php echo $categories[0]["lien"]["url"];?>">Voir plus d'articles</a>
     </div>
     
     <div class="categories-container">
+      
     <?php
-        foreach ($tout_savoir['contenu'] as $element) {
+    
+        foreach ($categories[0]['contenu'] as $element) {
           ?>
           
-          <a href="">
-        <div class="categorie-div">
-          <img src="http://wordpress.test/wp-content/uploads/2025/01/orange.svg" alt="icone de la categorie">
-          <h3>Qui sont les victimes de violences sexuelles ?</h3>
-        </div>
-      </a>
+        <a href="<?php echo ($element["lien-article"]["url"]);?>">
+          <div class="categorie-div">
+            <img src="<?php echo ($element['image']['url']);?>" alt="icone de la categorie">
+            <h3><?php echo ($element['sous-titre']);?></h3>
+          </div>
+        </a>
           
           
           <?php
@@ -94,19 +101,7 @@
         ?>
      
       
-      <a href="">
-        <div class="categorie-div">
-          <img src="http://wordpress.test/wp-content/uploads/2025/01/auteur.svg" alt="icone de la categorie">
-          <h3>Qui sont les auteurs de violences sexuelles ?</h3>
-        </div>
-      </a>
-
-      <a href="">
-        <div class="categorie-div">
-          <img src="http://wordpress.test/wp-content/uploads/2025/01/trauma.svg" alt="icone de la categorie">
-          <h3>Quels sont les traumatismes ?</h3>
-        </div>
-      </a>
+      
       
   </section>
   <section class="carousel-section container">

@@ -1,8 +1,8 @@
 <section class="composant-3bloc-liste container">
   <?php
-  echo('<pre>');
-  var_dump($args);
-  echo('</pre>');
+  //echo('<pre>');
+  //var_dump($args);
+  //echo('</pre>');
   ?>
   <?php foreach($args['blocs'] as $bloc): ?>
     <div>

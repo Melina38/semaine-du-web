@@ -25,6 +25,9 @@
         font-size: 1rem;
         color: #333D7B;
     }
+    .lien-propos:hover{
+        text-decoration: underline;
+    }
     .lien-quiz{
         text-decoration: none;
         padding: 12px 24px;
@@ -48,7 +51,7 @@
     }
     .lien-quiz:hover{
         background-color: #333D7B;
-        color: #FFE2CC;
+        color: white;
 
         
     }
