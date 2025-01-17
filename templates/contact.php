@@ -30,9 +30,9 @@ Contact HTML
 
 <br>
 
-<form action="/" method="get">
-    <input type="text" name='s' plzceholder="Rechercher" value="">
-    <button>Go</button>
-</form>
+<?php
 
+    echo do_shortcode(get_field('formulaire_wpforms'));
+
+?>
 <?php get_footer(); ?>

@@ -61,6 +61,9 @@ p{
     color: #333D7B;
     font-size: 1rem;
 }
+ul{
+    color: #333D7B; 
+}
 
 /* CATÉGORIES */
 
@@ -117,6 +120,12 @@ p{
             h3{
                 margin-top: 20px;
                 text-align: center;
+                color: #333D7B;
+                font-size: 1.25rem;
+                font-family: "Ubuntu", sans-serif;
+                font-weight: 500;
+                font-style: normal;
+                line-height: 30px;
             }
     
             &:hover{
@@ -126,4 +135,49 @@ p{
         }
     }
     
+}
+
+/* Modèle de categorie */
+.titre-categorie{
+    margin-top: 70px;
+    
+}
+.archive-title{
+    font-size: 10px;
+}
+.categories-article-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+    
+    
+}
+.categorie-article-div{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    max-width: 223px;
+    transition: transform 0.3s ease;
+    .lien-article{
+        text-decoration: none;
+        align-items: center;
+        
+
+
+        
+            
+            
+            
+    
+            h3{
+                margin-top: 20px;
+                text-align: center;
+            }
+    
+            &:hover{
+                transform: translateY(-10px);
+            }
+            
+        
+    }
 }

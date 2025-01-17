@@ -68,42 +68,28 @@
   </section>
 
   <?php
-        $categories = get_field("categories");
+    $categories = get_field("categories");
     //echo('<pre>');
     //var_dump($categories);
     //echo('</pre>');
-        ?>
-  <section class="categories-section container" id="guide">
-    <div class="titre-categories">
-
-    
-      <h1><?php echo $categories[0]["titre"];?></h1>
-      <a href="<?php echo $categories[0]["lien"]["url"];?>">Voir plus d'articles</a>
-    </div>
-    
-    <div class="categories-container">
-      
-    <?php
-    
-        foreach ($categories[0]['contenu'] as $element) {
-          ?>
-          
-        <a href="<?php echo ($element["lien-article"]["url"]);?>">
-          <div class="categorie-div">
-            <img src="<?php echo ($element['image']['url']);?>" alt="icone de la categorie">
-            <h3><?php echo ($element['sous-titre']);?></h3>
-          </div>
-        </a>
-          
-          
-          <?php
-        }
-        ?>
-     
-      
-      
-      
-  </section>
+  ?>
+  <?php foreach($categories as $category): ?>
+    <section class="categories-section container" id="guide">
+      <div class="titre-categories">
+        <h1><?php echo $category["titre"];?></h1>
+        <a href="<?php echo $category["lien"]["url"];?>">Voir plus d'articles</a>
+      </div>
+      <div class="categories-container">
+      <?php foreach ($category['contenu'] as $element): ?>
+          <a href="<?php echo ($element["lien-article"]["url"]);?>">
+            <div class="categorie-div">
+              <img src="<?php echo ($element['image']['url']);?>" alt="icone de la categorie">
+              <h3><?php echo ($element['sous-titre']);?></h3>
+            </div>
+          </a>      
+      <?php endforeach; ?>      
+    </section>
+  <?php endforeach; ?>
   <section class="carousel-section container">
       <div>
         <h2>Vous accompagnez un patient présentant des comportements sexuels problématiques ou victimes de violences sexuelles ?</h2>

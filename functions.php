@@ -37,6 +37,11 @@
   }
   add_action( 'wp_enqueue_scripts', 'add_script' );
 
+
+
+  	
+  add_theme_support( 'post-thumbnails' );
+
   // Ajout d'une taille pour une image
   add_image_size( name: 'custom_size', width: 180 , height: 300 , crop: true );
 ?>

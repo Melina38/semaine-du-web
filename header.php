@@ -31,8 +31,8 @@
         </div>
         <nav>
           <ul>
-            <li><a href="">DÉVELOPPEMENT PSYCHOSEXUEL</a></li>
-            <li><a href="">VIOLENCES SEXUELLES</a></li>
+            <li><a href="http://wordpress.test/index.php/category/developpement-psychosexuel-de-lenfant/">DÉVELOPPEMENT PSYCHOSEXUEL</a></li>
+            <li><a href="http://wordpress.test/index.php/category/violences-sexuelles/">VIOLENCES SEXUELLES</a></li>
             <li><a href="">SEXUALITÉ ET GENRE</a></li>
             <li><a href="">ACCOMPAGNEMENT</a></li>
             <li><a href="">LA LOI</a></li>
