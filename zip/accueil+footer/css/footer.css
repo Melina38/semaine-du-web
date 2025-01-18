@@ -1,0 +1,259 @@
+/*
+Theme Name : sexo-pro-info
+Version:1.0.0
+*/
+body{
+    height: 206px; 
+}
+* {
+    box-sizing: border-box;
+    /* Cela garantit que les paddings et les bordures sont inclus dans les dimensions */
+}
+footer {
+    background-color: white;
+    width: 100%;
+    height: 206px;
+    display: flex;
+    /* Utilisation de Flexbox sur le footer pour aligner les éléments */
+    flex-direction: column;
+    /* Organiser les éléments du footer de manière verticale */
+}
+
+.boite {
+    padding-top: 47px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categories a,
+.autre a {
+    color: #333D7B;
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo {
+    max-width: 170px;
+    height: 106px;
+}
+
+.categories {
+    max-width: 365px;
+    height: 104px;
+    display: flex;
+    flex-direction: row;
+}
+
+.col-droite,
+.col-gauche {
+    margin-right: 79px;
+}
+
+li {
+    margin-bottom: 14px;
+    width: 157px;
+}
+
+.autre {
+    display: flex;
+    flex-direction: row;
+}
+
+.col-quiz {
+    width: 33px;
+    padding-right: 90px;
+}
+
+.autre ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.autre ul li:first-child {
+    margin-right: 28px;
+}
+.contact li {
+    width: 94px;
+}
+.legal-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 0px;
+}
+
+.legal-container a {
+    color: #333D7B;
+    font-size: 0.75rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    
+}
+
+.legal-container .texte {
+    width: 125px;
+    color: #333D7B;
+    font-size: 0.75rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+   }
+
+.legal-container ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.legal-container li{
+    width: 175px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.legal-container li:first-child{
+    width: 89px;
+   
+}
+.legal-container li:last-child{
+    width: 125px;
+}
+
+
+@media all and (max-width: 768px) {
+    body{
+        height: 285px; 
+    }
+    footer {
+        width: 390px;
+        height: 285px;
+    }
+
+    .boite {
+        width: 390px;
+        padding: 25px 41px 20px 41px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Centre les colonnes horizontalement */
+        align-items: center;
+    }
+
+    .logo {
+        max-width: 102px;
+        height: 63px;
+        padding-bottom: 20px;
+    }
+
+    .logo img {
+        max-width: 102px;
+        height: 63px;
+         padding-bottom: 20px;
+    }
+
+    .categories {
+        max-width: 308px;
+        height: 86px;
+        display: flex;
+        flex-direction: row;
+
+        li{
+            width: 122px;
+        }
+    }
+
+    .categories a,
+    .autre a {
+        font-size: 0.8rem;
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .col-gauche {
+        margin-right: 42px;
+    }
+
+    .col-droite {
+        margin-right: 0px;
+    }
+
+    li {
+        margin-bottom: 11px;
+        
+    }
+.autre{
+    width: 308px; /* Définit une largeur maximale pour cette section */
+        display: flex;
+         /* Distribue l'espace uniformément avec un écart */
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto; 
+        margin-top: 20px;
+}
+    .col-quiz {
+        width: 27px; /* Les éléments s'ajustent automatiquement à leur contenu */
+        text-align: center;
+        padding-right: 0px;
+        margin-right: 17px;
+    }
+    .contact{
+        width: auto; /* Les éléments s'ajustent automatiquement à leur contenu */
+        text-align: center;
+    }
+  .autre ul li {
+    width: 52px;
+  }
+    .autre ul li:first-child {
+        width: 79px;
+        margin-right: 17px;
+        
+    }
+    .legal-container {
+        margin-left: 0; /* Pour s'assurer que .legal-container est aligné au centre horizontalement */
+        margin-right: 0; /* Pour s'assurer que .legal-container est aligné au centre horizontalement */
+        display: flex;
+        justify-content: center; /* Centre les éléments horizontalement */
+        align-items: center; /* Centre les éléments verticalement */
+        margin-bottom: 25px; /* Ajoute une marge de 25px en dessous */
+    }
+    
+    .legal-container ul {
+        width: 308px;
+        display: flex;
+        justify-content: center; /* Centre les éléments à l'intérieur */
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .legal-container ul li {
+        
+        margin-left: 0px; /* Moitié de l'écart de 17px pour chaque côté */
+        margin-right: 0px;
+        text-align: center;
+    }
+    .legal-container li:first-child{
+        width: 89px;
+       
+    }
+    .legal-container li:last-child{
+        width: 100px;
+    }
+
+    .legal-container a {
+        font-size: 0.5rem;
+        text-align: center;
+        white-space: nowrap;
+    }
+    
+    .legal-container .texte {
+        height: 16px;
+        font-size: 0.5rem;
+        text-align: center;
+       
+    }
+}

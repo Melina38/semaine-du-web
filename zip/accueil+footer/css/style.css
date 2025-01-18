@@ -1,0 +1,236 @@
+/*
+Theme Name : sexo-pro-info
+Version:1.0.0
+*/
+
+/*
+*{
+    outline: 1px solid red;
+}
+*/
+
+.container{
+    width: 100%;
+    max-width: 1196px;
+    margin: 0 auto;
+}
+body{
+    background-color: #FDF1DC;
+}
+
+
+h1{
+    color: #333D7B;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.875rem;
+    line-height: 54px;
+}
+h2{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 2rem;
+    color: #333D7B;
+    line-height: 40px;
+}
+
+h3{
+    color: #333D7B;
+    font-size: 1.125rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.source{
+    color: #333D7B;
+    font-size: 0.75rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22px;
+}
+
+p{
+    color: #333D7B;
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 22px;
+}
+/* CATÉGORIES */
+
+.categories-section{
+    padding: 7.625rem 0 7.625rem 0;
+    display: flex;
+
+    .titre-categories{
+        max-width: 345px;
+        margin-right: 20px;
+
+        a{
+            background-color: #333D7B;
+            color: white;
+            text-decoration: none;
+            padding: 12px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 190px;
+            margin-top: 40px;
+            
+            
+            border-radius: 100px;
+            font-family: "Ubuntu", serif;
+            font-weight: 700;
+            font-style: normal;
+
+            transition: background-color 0.3s ease, color 0.3s ease;
+
+        }
+        a:hover{
+            background-color: #858BB0;
+            color: white;
+        }
+    }
+}
+.categories-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    a{
+        text-decoration: none;
+        align-items: center;
+        
+
+
+        .categorie-div{
+            max-width: 223px;
+            transition: transform 0.3s ease;
+            
+            
+    
+            h3{
+                margin-top: 20px;
+                text-align: center;
+            }
+    
+            &:hover{
+                transform: translateY(-10px);
+            }
+            
+        }
+    }
+    
+}
+    
+    /* Responsive */
+    @media all and (max-width: 768px) {
+    
+h1{
+    color: #333D7B;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.75rem;
+    line-height: 40px;
+}
+h2{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: #333D7B;
+    line-height: 30px;
+}
+
+h3{
+    color: #333D7B;
+    font-size: 1rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 22px;
+}
+
+/* CATÉGORIES */
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.hero-section  {
+    width: 307px;
+    height: auto;
+    padding-top: 131px; /* à retirer quand header mis en place */
+    padding-bottom: 17px;
+}
+.chemin-section{
+    width: 308px;
+    height: auto;
+    padding-bottom: 24px;
+}
+  .categories-container {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Disposer les éléments en colonne pour les petits écrans */
+    align-items: center; /* Centrer les éléments */
+    justify-content: center; /* Centrer les éléments horizontalement */
+    gap: 10px; /* Espacement réduit entre les éléments */
+    
+    a{
+       
+        .categorie-div{
+            
+            transition: transform 0.3s ease;
+            text-align: center;
+            padding-bottom: 40px;
+            
+            img{
+                width: 180px;
+                height: 200px;
+            }
+    
+            h3{
+                margin-top: 20px;
+                width: 223px;
+                margin: 0 auto; 
+               
+            }
+            
+        }
+    }
+  }
+
+  
+
+
+  .categories-section{
+    padding-top:0%;
+    padding-bottom:80px;
+    width: 345px;
+    height: auto;
+  
+
+    .titre-categories{
+        
+        padding-bottom:40px;
+        a{
+           
+            padding:12px 24px 12px 24px;
+            width: 223px;
+            margin-top: 40px;
+            font-size: 0.75rem;
+            
+        }
+        
+    }
+}
+
+}

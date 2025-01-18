@@ -12,7 +12,7 @@
 
 .chemin-section{
     display: flex;
-    padding: 0 0 100px 0;
+    padding: 0 0 202px 0;
     
 
 
@@ -21,7 +21,7 @@
 
 
 .quiz-container{
-    background-image: url(http://wordpress.test/wp-content/uploads/2025/01/bulle-gauche.svg) ;
+    background-image: url(/img/bulle_gauche.svg) ;
     background-size: contain;
     background-repeat: no-repeat;
     padding: 100px;
@@ -65,7 +65,7 @@
         }
         a:hover{
             background-color: #333D7B;
-            color: white;
+            color: #FFE2CC;
         }
         a:hover img{
             filter: invert(1) brightness(2);
@@ -83,7 +83,7 @@
 
 
 .guide-container{
-    background-image: url(http://wordpress.test/wp-content/uploads/2025/01/bulle-droite.svg) ;
+    background-image: url(/img/bulle_droite.svg) ;
     background-size: contain;
     background-repeat: no-repeat;
     padding: 100px;
@@ -126,7 +126,7 @@
         }
         a:hover{
             background-color: #333D7B;
-            color: white;
+            color: #FFE2CC;
         }
         a:hover img{
             filter: invert(1) brightness(2);
@@ -139,7 +139,6 @@
         
     }
 }
-
 
 /* Carousel 
 .carousel-div{
@@ -169,8 +168,8 @@
 }
  */   
 /* Carousel */
-
 .carousel-section{
+    background-color: #FCE4CA;
     padding: 123px 0 40px 0;
     div{
         align-items: center;
@@ -178,11 +177,11 @@
         h2{
             margin-bottom: 16px;
         }
-        
+
     }
 }
-
 .carousel-container {
+    background-color: #FCE4CA;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -190,26 +189,18 @@
     
 }
 
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
 
 .carousel-item {
-    width: 33.33%; /* Ajustez cette valeur selon le nombre d'éléments que vous souhaitez afficher côte à côte */
+    min-width: 33.33%; /* Ajustez cette valeur selon le nombre d'éléments que vous souhaitez afficher côte à côte */
     box-sizing: border-box;
     padding: 10px; /* Ajoutez un peu de padding pour l'espacement entre les éléments */
-    margin-right: 51px ;
-    margin-left: 51px;
     
 }
-@media (max-width: 420px) {
-    .carousel-item {
-        width: 70%;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-    .carousel-item h2 {
-        font-size: 20px;
-        line-height: 23px;
-    }
-}
+
 .carousel-item .lien-carousel {
     display: flex;
     flex-direction: column;
@@ -260,10 +251,49 @@
     background-color:rgba(133, 139, 176, 0.12);
 }
 
-/*RESPONSIVE */
-@media(max-width: 720px) {
- 
 
+section.composant-citation {
+    p {
+        color: green;
+    }
+}
+
+
+/* Responsive */
+@media all and (max-width: 768px) {
+ 
+    .carousel-section{
+        
+        padding: 40px 21px 64px 21px;
+        
+        
+        div{
+            align-items: center;
+            text-align: center;
+            width: 308px;
+            h2{
+                margin-bottom: 16px;
+            }
+    
+        }
+    }
+
+    .carousel-container {
+       
+        position: relative;
+        width: 308px;
+        overflow: hidden;
+        margin-bottom: 123px;
+        .carousel{
+            width: 308px;
+        }
+    }
+    .carousel-item {
+        min-width: 50%; /* Ajustez cette valeur selon le nombre d'éléments que vous souhaitez afficher côte à côte */
+        box-sizing: border-box;
+        padding: 10px; /* Ajoutez un peu de padding pour l'espacement entre les éléments */
+        
+    }
     .hero-section .hero-container h2 {
         margin-top: 10px;
     }
@@ -322,7 +352,7 @@
    
     
     .coeur-img{
-        width: 60px;                  
+        width: 37px;                  
         height: auto;
         margin-left: 14px;
     }
