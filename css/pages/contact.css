@@ -1,0 +1,39 @@
+.contact{
+    margin-top: 50px;
+    
+}
+
+.wpforms-field-label{
+    color: #333D7B !important;
+    font-size: 1.25rem !important;
+    font-family: "Ubuntu", sans-serif  !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    line-height: 30px !important;
+}
+
+.wpforms-field-large{
+    border-radius: 14px !important;
+    border: none !important;
+}
+.wpforms-field-medium{
+    border-radius: 14px !important;
+    border: none !important;
+}
+.wpforms-submit-container{
+    text-align: right !important;
+}
+.wpforms-submit{
+    border-radius: 100px !important;
+    color: #333D7B !important;
+    background-color: white !important;
+    font-family: "Ubuntu", sans-serif !important;
+    font-weight: 700 !important;
+    font-style: normal !important;
+    font-size: 1rem !important;
+    padding: 12px 24px 12px 24px !important;
+}
+.wpforms-submit:hover{
+    color: white !important;
+    background-color: #333D7B !important;
+}

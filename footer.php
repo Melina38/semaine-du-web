@@ -20,7 +20,7 @@
         <li class="colonne2"><a class="liens-footer" href="">Quiz</a></li>
       </ul>
       <ul>
-        <li class="colonne2"><a class="liens-footer" href="">Me contactez</a></li>
+        <li class="colonne2"><a class="liens-footer" href="http://wordpress.test/index.php/contact/">Me contactez</a></li>
       </ul>
       <ul>
         <li class="colonne2"><a class="liens-footer" href="">À propos</a></li>

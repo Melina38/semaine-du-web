@@ -152,6 +152,7 @@ ul{
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    padding: 0 255px 0 255px;
     
     
     
@@ -159,9 +160,9 @@ ul{
 .categorie-article-div{
     margin-top: 60px;
     margin-bottom: 60px;
-    max-width: calc(25% - 20px);
+    max-width: calc(33.33% - 20px);
     transition: transform 0.3s ease;
-    flex: 1 1 calc(25% - 20px); /* Ajustez cette valeur selon le nombre d'éléments que vous souhaitez afficher côte à côte */
+    flex: 1 1 calc(33.33% - 20px); /* Ajustez cette valeur selon le nombre d'éléments que vous souhaitez afficher côte à côte */
     box-sizing: border-box;
     .lien-article{
         text-decoration: none;

@@ -6,6 +6,8 @@
     wp_enqueue_style('footer-style', get_template_directory_uri() . '/css/layout/footer.css', false);
     wp_enqueue_style('header-style', get_template_directory_uri() . '/css/layout/header.css', false);
     wp_enqueue_style('accueil-style', get_template_directory_uri() . '/css/pages/accueil.css', false);
+    wp_enqueue_style('contact-style', get_template_directory_uri() . '/css/pages/contact.css', false);
+    wp_enqueue_style('quiz-style', get_template_directory_uri() . '/css/pages/quiz.css', false);
 
 
     wp_enqueue_style('citation-style', get_template_directory_uri() . '/css/template-parts/citation.css', false);
