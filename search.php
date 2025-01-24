@@ -6,8 +6,9 @@
             <ul>
                 <?php while (have_posts()) : the_post(); ?>
                     <li>
-                        <a href="<?php the_permalink(); ?>">
-                            <h2><?php the_title(); ?></h2>
+                        <a class="lien-article" href="<?php the_permalink(); ?>">
+                            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+                            <h3 class="archive-title"><?php the_title(); ?></h3>
                         </a>
                         <!--<p><?php //the_excerpt(); ?></p>-->
                     </li>

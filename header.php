@@ -26,17 +26,17 @@
             <button type="submit" id="searchsubmit"><i class="fa fa-search"></i></button>
           </form>
 
-          <a class="lien-quiz" href="">QUIZ<img src="<?php echo get_template_directory_uri(); ?>/img/quiz.svg" alt="Petite case cocher et point d'interogation"></a>
+          <a class="lien-quiz" href="http://wordpress.test/index.php/quiz/">QUIZ<img src="<?php echo get_template_directory_uri(); ?>/img/quiz.svg" alt="Petite case cocher et point d'interogation"></a>
           <a class="lien-propos" href="">À PROPOS</a>
         </div>
         <nav>
           <ul>
             <li><a href="http://wordpress.test/index.php/category/developpement-psychosexuel-de-lenfant/">DÉVELOPPEMENT PSYCHOSEXUEL</a></li>
             <li><a href="http://wordpress.test/index.php/category/violences-sexuelles/">VIOLENCES SEXUELLES</a></li>
-            <li><a href="">SEXUALITÉ ET GENRE</a></li>
-            <li><a href="">ACCOMPAGNEMENT</a></li>
-            <li><a href="">LA LOI</a></li>
-            <li><a href="">OUTILS</a></li>
+            <li><a href="http://wordpress.test/index.php/category/sexulaite_et_genre/">SEXUALITÉ ET GENRE</a></li>
+            <li><a href="http://wordpress.test/index.php/category/accompagnement/">ACCOMPAGNEMENT</a></li>
+            <li><a href="http://wordpress.test/index.php/category/la-loi/">LA LOI</a></li>
+            <li><a href="http://wordpress.test/index.php/category/les-outils/">OUTILS</a></li>
           </ul>
         </nav>
     </div>
