@@ -5,7 +5,7 @@
 ?>
 
 <?php get_header(); ?>
-<?php $quiz_list = get_field('quiz_list'); var_dump($quiz_list); ?>
+<?php $quiz_list = get_field('quiz_list'); //var_dump($quiz_list); ?>
 <section class="quiz-section container">
     <div>
         <h1>Quiz</h1>
@@ -18,7 +18,7 @@
             <iframe src="<?php echo($quiz['quiz_url']); ?>" frameborder="0" allowfullscreen></iframe>
         </div>
 
-    <?php endforeach; ?>
+    <?php endforeach; ?> 
 </section>
 
 <?php get_footer(); ?>

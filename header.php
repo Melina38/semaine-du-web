@@ -27,7 +27,7 @@
           </form>
 
           <a class="lien-quiz" href="http://wordpress.test/index.php/quiz/">QUIZ<img src="<?php echo get_template_directory_uri(); ?>/img/quiz.svg" alt="Petite case cocher et point d'interogation"></a>
-          <a class="lien-propos" href="">À PROPOS</a>
+          <a class="lien-propos" href="http://wordpress.test/index.php/a-propos/">À PROPOS</a>
         </div>
         <nav>
           <ul>

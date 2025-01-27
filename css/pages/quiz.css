@@ -5,8 +5,15 @@ iframe{
 }
 .quiz{
     display: flex;
+    margin-top: 90px;
+
+    h1{
+        width: 426px;
+        margin-right: 60px;
+    }
 }
 .quiz-section{
+    margin-top: 60px;
     div{
         margin-bottom: 70px;
     }

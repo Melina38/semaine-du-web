@@ -147,28 +147,23 @@ ul{
 }
 
 
-.categories-article-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 0 255px 0 255px;
+.search-div{
+    margin-top: 60px;
     
     
     
 }
-.categorie-article-div{
+.categorie-article{
     margin-top: 60px;
     margin-bottom: 60px;
-    max-width: calc(33.33% - 20px);
+    
     transition: transform 0.3s ease;
-    flex: 1 1 calc(33.33% - 20px); /* Ajustez cette valeur selon le nombre d'éléments que vous souhaitez afficher côte à côte */
+     /* Ajustez cette valeur selon le nombre d'éléments que vous souhaitez afficher côte à côte */
     box-sizing: border-box;
     .lien-article{
         text-decoration: none;
         align-items: center;
         display: flex;
-        flex-direction: column;
         
 
 
@@ -178,15 +173,14 @@ ul{
             
     
             .archive-title{
-                margin-top: 20px;
-                text-align: center;
+                text-align: left;
                 color: #333D7B;
-                font-size: 1.25rem;
+                font-size: 2.25rem;
                 font-family: "Ubuntu", sans-serif;
                 font-weight: 500;
                 font-style: normal;
                 line-height: 30px;
-                max-width: 223px;
+                margin-left: 30px;
             }
             img{
                 width: 220px;

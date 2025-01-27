@@ -1,0 +1,50 @@
+main {
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.titre-propos h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333D7B;
+    font-size: 40px; 
+    font-family: 'Ubuntu', sans-serif; 
+    font-weight: bold; 
+    margin: 60px auto;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    text-align: left;
+    margin-bottom: 160px;
+}
+
+.content div {
+    background-color: #333D7B;
+    color: #FDF1DC;
+    padding: 20px;
+    flex: 1;
+    border-radius: 1000px 1000px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    width: 385px;
+
+    p{
+        color: #FDF1DC !important;
+        width: 345px;
+        margin-top: 20px;
+    }
+    h2{
+        color: #FDF1DC !important;
+        margin-top: -20px;
+        width: 220px;
+        text-align: center;
+        height: 92px;
+    }
+
+}
