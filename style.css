@@ -138,10 +138,68 @@ ul{
 }
 
 /* Modèle de categorie */
+.titre-categories{
+    margin-top: 70px;
+    a{
+        box-sizing: content-box
+    }
+}
 .titre-categorie{
     margin-top: 70px;
+}
+.categories-article-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 180px;
+    margin-top: 40px;
+    
+
+    .categorie-article-div{
+        width: 223px ;
+        margin-bottom: 50px;
+        
+        .lien-article{
+            text-decoration: none;
+            align-items: center;
+            
+            
+            
+    
+    
+            
+                
+                
+                
+        
+                .archive-title{
+                    text-align: center;
+                    color: #333D7B;
+                    font-size: 1.5rem;
+                    font-family: "Ubuntu", sans-serif;
+                    font-weight: 500;
+                    font-style: normal;
+                    line-height: 30px;
+                    width: 223px;
+                }
+                img{
+                    width: 220px;
+                    height: 220px;
+                }
+        }
+        &:hover{
+            transform: translateY(-10px);
+        }
+    }
     
 }
+@media only screen and (max-width: 420px) {
+    .categories-article-container{
+        padding: 0 80px;
+    }
+}
+
 .archive-title{
     font-size: 10px;
 }
@@ -159,7 +217,7 @@ ul{
     
     transition: transform 0.3s ease;
      /* Ajustez cette valeur selon le nombre d'éléments que vous souhaitez afficher côte à côte */
-    box-sizing: border-box;
+    
     .lien-article{
         text-decoration: none;
         align-items: center;
@@ -195,10 +253,7 @@ ul{
         transform: translateY(-10px);
     }
 }
-.categorie-article-div img {
-    width: 100%; /* Assurez-vous que l'image prend toute la largeur de son conteneur */
-    height: auto; /* Maintient le ratio de l'image */
-}
+
 
 /* RESPONSIVE */
 

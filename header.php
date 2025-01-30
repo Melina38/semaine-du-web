@@ -17,7 +17,7 @@
 </head>
 <body>
   <header class="container header">
-    <a href="index.php"><img class="logo-header" src="<?php echo get_template_directory_uri(); ?>/img/logo-footer.svg" alt="logo" width="170" height="106"></a>
+    <a href="http://wordpress.test/"><img class="logo-header" src="<?php echo get_template_directory_uri();?>/img/logo-footer.svg" alt="logo" width="170" height="106"></a>
     <div>
         <div class="sur-header">
           <p>Proposer le soin le plus adapté aux besoins du mineur</p>
@@ -29,7 +29,7 @@
           <a class="lien-quiz" href="http://wordpress.test/index.php/quiz/">QUIZ<img src="<?php echo get_template_directory_uri(); ?>/img/quiz.svg" alt="Petite case cocher et point d'interogation"></a>
           <a class="lien-propos" href="http://wordpress.test/index.php/a-propos/">À PROPOS</a>
         </div>
-        <nav>
+        <nav class="deckstop-nav">
           <ul>
             <li><a href="http://wordpress.test/index.php/category/developpement-psychosexuel-de-lenfant/">DÉVELOPPEMENT PSYCHOSEXUEL</a></li>
             <li><a href="http://wordpress.test/index.php/category/violences-sexuelles/">VIOLENCES SEXUELLES</a></li>
@@ -43,3 +43,46 @@
     
     
   </header>
+  <header class="header-mobile">
+        <div class="header-container">
+            <img src="images/logosexo.svg" alt="logo">
+            <div class="baseline">
+                <p>Proposer le soin le plus adapté aux besoins du mineur</p>
+            </div>
+            <div class="burger-menu" id="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <nav id="mobile-menu" class="mobile-menu">
+        <button id="close-menu" class="close-menu"> 
+            <img src="images/croix.svg" alt="Fermer" class="close-icon">
+        </button> 
+        <ul>
+            <li><a href="#">DÉVELOPEMENT PSYCHOSEXUEL</a></li>
+            <li><a href="#">VIOLENCES SEXUELLES</a></li>
+            <li><a href="#">ORIENTATION & IDENTITÉ</a></li>
+            <li><a href="#">ACCOMPAGNEMENT</a></li>
+            <li><a href="#">LA LOI</a></li>
+            <li><a href="#">OUTILS</a></li>
+            <li><a href="#">À PROPOS</a></li>
+        </ul>
+        <div class="menu-actions">
+            <form role="search" method="get" id="searchform" class="searchform-mobile" action="<?php echo home_url( '/' ); ?>">
+                <input type="text" value="" name="s" id="s" placeholder="Rechercher..." />
+                <button type="submit" id="searchsubmit">
+                    <i class="fa fa-search"></i>
+                    <img src="images/loupe.svg" alt="Rechercher" class="search-icon">
+                </button>
+            </form>
+            
+            <button class="quiz-btn"> <img src="images/quiz.svg" alt="Quiz" class="quiz-icon">QUIZ</button>
+        </div>
+    </nav>
+
+    <div id="overlay" class="overlay"></div> 
+
+    <script src="main.js"></script>

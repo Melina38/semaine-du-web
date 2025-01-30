@@ -1,49 +1,54 @@
-<footer >
-   <section class="footer">
-    <div class="footer-container container">
-      <a href="index.php"><img class="logo-footer" src="<?php echo get_template_directory_uri(); ?>/img/logo-footer.svg" alt="logo" width="170" height="106"></a>
-      <ul>
-        <li class="colonne1"><a class="liens-footer" href="">Sexualité et genre</a></li>
-        <li class="colonne1"><a class="liens-footer" href="">Violences <br>sexuelles</a></li>
-        <li class="colonne1"><a class="liens-footer" href="">Outils</a></li>
-        
-        
-        
-      </ul>
-      <ul>
-        <li class="colonne1"><a class="liens-footer" href="">Accompagnement</a></li>
-        <li class="colonne1"><a class="liens-footer" href="">Développement <br> psychosexuel</a></li>
-        <li class="colonne1"><a class="liens-footer" href="">La loi</a></li>
-        
-      </ul>
-      <ul>
-        <li class="colonne2"><a class="liens-footer" href="">Quiz</a></li>
-      </ul>
-      <ul>
-        <li class="colonne2"><a class="liens-footer" href="http://wordpress.test/index.php/contact/">Me contactez</a></li>
-      </ul>
-      <ul>
-        <li class="colonne2"><a class="liens-footer" href="">À propos</a></li>
-      </ul>
-    </div>
 
+  <footer>
+    <section class="boite container">
 
+        <div class="logo">
+            <a href="http://wordpress.test/"><img src="<?php echo get_template_directory_uri();?>/img/logo-footer.svg" alt="logo"></a>
+        </div>
+
+        <div class="categories">
+
+            <ul class="col-gauche">
+                <li><a href="">Développement <br> psychosexuel</a></li>
+                <li><a href="">Violences sexuelles</a></li>
+                <li><a href="">Outils</a></li>
+            </ul>
+
+            <ul class="col-droite">
+                <li><a href="">Orientation et identité</a></li>
+                <li><a href="">Accompagnement</a></li>
+                <li><a href="">La loi</a></li>
+            </ul>
+
+            
+
+        </div>
+
+        <div class="autre">
+            <ul class="col-quiz">
+                <li><a href="">Quiz</a></li>
+                </ul>
+            <ul class="contact">
+                <li><a href="">Me contacter</a></li>
+                <li><a href="">À propos</a></li>
+            </ul>
+
+        </div>
+    </section>
     <div class="legal-container">
-      <ul>
-        <li class="colonne3"><a class="liens-bas-footer" href="">Mentions légales</a></li>
-      </ul>
-      <ul>
-        <li class="colonne3"><a class="liens-bas-footer" href="">Données personnelles et cookies</a></li>
-      </ul>
-      <ul>
-        <li class="colonne3"><p class="credit-footer">@2025 Pharabot</p></li>
-      </ul>
+        <ul>
+            <li><a href="">Mentions légales</a></li>
+            <li><a href="">Données personnelles et cookies</a></li>
+            <li>
+                <p class="texte">@2025 Étudiants MMI</p>
+            </li>
+        </ul>
     </div>
-    
-    
 
-   </section>
-  </footer>
+
+
+
+</footer>
   <?php wp_footer(); ?>
 </body>
 </html>
