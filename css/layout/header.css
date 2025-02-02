@@ -223,7 +223,7 @@
     z-index: 1001; /* le header doit être sous le menu */
     transition: background-color 0.3s ease;
     padding-top: 43px;
-    padding-bottom: 43px;
+    /*padding-bottom: 43px;*/
 }
 
 .header-container {

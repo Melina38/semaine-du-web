@@ -10,7 +10,7 @@
                         <?php if (has_post_thumbnail()) : ?>
                                 <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
                         <?php endif; ?>
-                            <h3 class="archive-title"><?php the_title(); ?></h3>
+                            <h2 class="archive-title"><?php the_title(); ?></h2>
                         </a>
                         <!--<p><?php //the_excerpt(); ?></p>-->
                     </li>

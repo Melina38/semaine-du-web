@@ -1,4 +1,4 @@
-
+    <main class="contenu-footer"></main>
   <footer>
     <section class="boite container">
 

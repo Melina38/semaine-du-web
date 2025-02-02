@@ -11,8 +11,8 @@ $category = get_category( get_query_var( 'cat' ) );
 
 <div>
     <section class="container">
-        <h1 class="titre-categorie container"> <?php echo $category->name; ?> </h1>
-        <h3 class="container"> <?php echo $category->description; ?></h3>
+        <h1 class="titre-categorie"> <?php echo $category->name; ?> </h1>
+        <h3> <?php echo $category->description; ?></h3>
         <?php 
 
         
@@ -45,7 +45,7 @@ $category = get_category( get_query_var( 'cat' ) );
             //echo '</pre>'; ?>
 
                     <div class="categorie-article-div">
-                        <a class="lien-article" href="<?php the_permalink(); ?>">
+                        <a class="categorie-lien-article" href="<?php the_permalink(); ?>">
                             <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
                             <h3 class="archive-title"><?php the_title(); ?></h3>
                         </a>
