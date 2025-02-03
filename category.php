@@ -4,6 +4,7 @@
 get_header(); 
 
 $category = get_category( get_query_var( 'cat' ) );
+
             //echo '<pre>';
             //echo var_dump($category);
             //echo '</pre>';

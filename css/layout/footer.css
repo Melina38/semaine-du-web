@@ -87,6 +87,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: white;
 }
 .categories li{
     margin-bottom: 14px;
@@ -209,7 +210,7 @@ footer {
 }
 
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 420px) {
     
     footer {
         width: 390px;

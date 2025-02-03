@@ -90,46 +90,65 @@
       <?php endforeach; ?>      
     </section>
   <?php endforeach; ?>
+
+
+  <?php
+// Obtenir les objets de catégorie
+$category_psychosexuel = get_category_by_slug('developpement-psychosexuel-de-lenfant');
+$category_violences = get_category_by_slug('violences-sexuelles');
+$category_genre = get_category_by_slug('sexulaite_et_genre');
+$category_accompagnement = get_category_by_slug('accompagnement');
+$category_loi = get_category_by_slug('la-loi');
+$category_outils = get_category_by_slug('les-outils');
+
+// Obtenir les liens des catégories
+$category_psychosexuel_link = get_category_link($category_psychosexuel->term_id);
+$category_violences_link = get_category_link($category_violences->term_id);
+$category_genre_link = get_category_link($category_genre->term_id);
+$category_accompagnement_link = get_category_link($category_accompagnement->term_id);
+$category_loi_link = get_category_link($category_loi->term_id);
+$category_outils_link = get_category_link($category_outils->term_id);
+?>
   <section class="carousel-section container">
       <div>
         <h2>Vous accompagnez un patient présentant des comportements sexuels problématiques ou victimes de violences sexuelles ?</h2>
         <h3>Explorez nos différentes catégories et trouvez les ressources adaptées à chaque situation !</h3>
       </div>
   </section>
-      <div class="carousel-container container">
+      <div class="carousel-container">
         <div class="carousel">
             <div class="carousel-item">
-                <a class="lien-carousel" href="">
+                <a class="lien-carousel" href="<?php echo esc_url($category_psychosexuel_link); ?>">
                     <h2>Développement psychosexuel</h2>
                     <img src="http://wordpress.test/wp-content/uploads/2025/01/psychosexuel.svg" alt="symbole sexe féminin et masculin">
                 </a>
             </div>
             <div class="carousel-item">
-                <a class="lien-carousel" href="">
+                <a class="lien-carousel" href="<?php echo esc_url($category_violences_link); ?>">
                     <h2>Violences sexuelles</h2>
                     <img src="http://wordpress.test/wp-content/uploads/2025/01/violences.svg" alt="symbole sexe féminin et masculin">
                 </a>
             </div>
             <div class="carousel-item">
-                <a class="lien-carousel" href="">
+                <a class="lien-carousel" href="<?php echo esc_url($category_genre_link); ?>">
                     <h2>Sexualité et genre</h2>
                     <img src="http://wordpress.test/wp-content/uploads/2025/01/sexualite.svg" alt="symbole sexe féminin et masculin">
                 </a>
             </div>
             <div class="carousel-item">
-                <a class="lien-carousel" href="">
+                <a class="lien-carousel" href="<?php echo esc_url($category_accompagnement_link); ?>">
                     <h2>Accompagnement</h2>
                     <img src="http://wordpress.test/wp-content/uploads/2025/01/accompagnement.svg" alt="autre sujet">
                 </a>
             </div>
             <div class="carousel-item">
-                <a class="lien-carousel" href="">
+                <a class="lien-carousel" href="<?php echo esc_url($category_loi_link); ?>">
                     <h2>La loi</h2>
                     <img src="http://wordpress.test/wp-content/uploads/2025/01/loi.svg" alt="autre sujet">
                 </a>
             </div>
             <div class="carousel-item">
-                <a class="lien-carousel" href="">
+                <a class="lien-carousel" href="<?php echo esc_url($category_outils_link); ?>">
                     <h2>Outils</h2>
                     <img src="http://wordpress.test/wp-content/uploads/2025/01/outils.svg" alt="autre sujet">
                 </a>
