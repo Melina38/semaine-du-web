@@ -1,7 +1,6 @@
 main {
     max-width: 1300px;
     margin: 20px auto;
-    padding: 20px;
     text-align: center;
 }
 
@@ -56,8 +55,14 @@ main {
             height: 50px;
         }
         p{
-            padding: 20px;
+            padding: 40px;
         }
 
+    }
+    .titre-propos{
+        display: flex;
+        h1{
+            margin-top: 150px;
+        }
     }
 }
