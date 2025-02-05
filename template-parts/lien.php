@@ -4,7 +4,9 @@
   //var_dump($args);
   //echo('</pre>');
 ?>
-    <a href="<?php echo($args['lien']); ?>" target="_blank">Voir article suivant</a>
+    <a href="<?php echo($args['lien']); ?>" target="_blank"><?php echo($args['texte']); ?>
     <img src="<?php echo($args['image']['url']); ?>" alt="fleche droite">
+  </a>
+    
 
 </section>

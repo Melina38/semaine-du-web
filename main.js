@@ -36,3 +36,22 @@ overlay.addEventListener('click', toggleMenu);
 
 // Fermer le menu avec le bouton de fermeture
 closeMenu.addEventListener('click', toggleMenu);
+
+
+
+
+// Bibliography
+function toggleBibliography() {
+  var bibliography = document.getElementById("bibliography");
+  var arrowIcon = document.getElementById("arrowIcon");
+
+  if (bibliography.classList.contains("show")) {
+      bibliography.classList.remove("show");
+      arrowIcon.classList.remove("up");
+      arrowIcon.classList.add("down");  // Flèche vers le bas
+  } else {
+      bibliography.classList.add("show");
+      arrowIcon.classList.remove("down");
+      arrowIcon.classList.add("up");  // Flèche vers le haut
+  }
+}

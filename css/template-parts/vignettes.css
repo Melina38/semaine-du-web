@@ -11,14 +11,19 @@
 
         div{
             max-width: 223px;
-            
+            align-items: center;
+            display: flex;
+            flex-direction: column;
     
             p{
                 
                 margin-top: 20px;
                 text-align: center;
             }
-    
+            img{
+                width: 223px;
+                height: 120px;
+            }
             
         }
     }
