@@ -7,7 +7,7 @@
 <?php get_header(); ?>
 
 
-<section class="contact container">
+<section class="contact-section container">
     <h1>Contact</h1>
     <h3>Une question ? Une suggestion ? Contactez moi !</h3>
 

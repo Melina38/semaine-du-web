@@ -169,10 +169,13 @@
 }
  */   
 /* Carousel */
-
+.carousel-container{
+    background-color: #FCE4CA;
+}
 .carousel-section{
     margin-top: 123px;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+    
     div{
         display: flex;
         flex-direction: column;
@@ -194,7 +197,7 @@
     position: relative;
     width: 100%;
     overflow: hidden;
-    margin-bottom: 123px;
+    padding-bottom: 123px;
     
 }
 

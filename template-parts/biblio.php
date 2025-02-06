@@ -1,19 +1,28 @@
-<section class="container">
+<?php
+    
+    //echo('<pre>');
+    //var_dump($args);
+    //echo('</pre>');
+  ?>
+
+
+
+<section class="biblio-section container">
         <button id="toggleBibliography" onclick="toggleBibliography()">
-            Voir la bibliographie
+        <?php echo($args['titre']); ?>
             <img id="arrowIcon" 
-            src="icon.svg" 
-            alt="Flèche" class="arrow">
+            src="<?php echo($args['image']['url']); ?>" 
+            alt="<?php echo($args['image']['alt']); ?>" class="arrow">
         </button>
+        
         
         <div id="bibliography" class="hidden">
             <ul>
-                <li><a href="#" >Source - Example 1</a></li>
-                <li><a href="#" >Source - Example 2</a></li>
-                <li><a href="#" >Source - Example 3</a></li>
-                <li><a href="#" >Source - Example 4</a></li>
-                <li><a href="#" >Source - Example 5</a></li>
+                <?php foreach($args['sources'] as $sources): ?>
+                <li><a href="<?php echo($sources['source']['url']); ?>" ><?php echo($sources['source']['title']); ?></a></li>
+                <?php endforeach; ?>
             </ul>
         </div>
+        
 </section>
     <script src="biblio.js"></script>

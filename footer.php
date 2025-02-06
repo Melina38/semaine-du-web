@@ -1,4 +1,21 @@
-    <main class="contenu-footer"></main>
+<?php
+// Obtenir les objets de catégorie
+$category_psychosexuel = get_category_by_slug('developpement-psychosexuel-de-lenfant');
+$category_violences = get_category_by_slug('violences-sexuelles');
+$category_genre = get_category_by_slug('sexulaite_et_genre');
+$category_accompagnement = get_category_by_slug('accompagnement');
+$category_loi = get_category_by_slug('la-loi');
+$category_outils = get_category_by_slug('les-outils');
+
+// Obtenir les liens des catégories
+$category_psychosexuel_link = get_category_link($category_psychosexuel->term_id);
+$category_violences_link = get_category_link($category_violences->term_id);
+$category_genre_link = get_category_link($category_genre->term_id);
+$category_accompagnement_link = get_category_link($category_accompagnement->term_id);
+$category_loi_link = get_category_link($category_loi->term_id);
+$category_outils_link = get_category_link($category_outils->term_id);
+?>
+
   <footer>
     <section class="boite container">
 
@@ -9,15 +26,15 @@
         <div class="categories">
 
             <ul class="col-gauche">
-                <li><a href="">Développement <br> psychosexuel</a></li>
-                <li><a href="">Violences sexuelles</a></li>
-                <li><a href="">Outils</a></li>
+                <li><a href="<?php echo esc_url($category_psychosexuel_link); ?>">Développement <br> psychosexuel</a></li>
+                <li><a href="<?php echo esc_url($category_violences_link); ?>">Violences sexuelles</a></li>
+                <li><a href="<?php echo esc_url($category_outils_link); ?>">Outils</a></li>
             </ul>
 
             <ul class="col-droite">
-                <li><a href="">Orientation et identité</a></li>
-                <li><a href="">Accompagnement</a></li>
-                <li><a href="">La loi</a></li>
+                <li><a href="<?php echo esc_url($category_genre_link); ?>">Sexualité et genre</a></li>
+                <li><a href="<?php echo esc_url($category_accompagnement_link); ?>">Accompagnement</a></li>
+                <li><a href="<?php echo esc_url($category_loi_link); ?>">La loi</a></li>
             </ul>
 
             
@@ -26,11 +43,11 @@
 
         <div class="autre">
             <ul class="col-quiz">
-                <li><a href="">Quiz</a></li>
+                <li><a href="http://wordpress.test/index.php/quiz/">Quiz</a></li>
                 </ul>
             <ul class="contact">
-                <li><a href="">Me contacter</a></li>
-                <li><a href="">À propos</a></li>
+                <li><a href="http://wordpress.test/index.php/contact/">Me contacter</a></li>
+                <li><a href="http://wordpress.test/index.php/a-propos/">À propos</a></li>
             </ul>
 
         </div>
@@ -38,7 +55,7 @@
     <div class="legal-container">
         <ul>
             <li><a href="">Mentions légales</a></li>
-            <li><a href="">Données personnelles et cookies</a></li>
+            
             <li>
                 <p class="texte">@2025 Étudiants MMI</p>
             </li>

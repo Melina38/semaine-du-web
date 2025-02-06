@@ -60,8 +60,12 @@
         </div>
           
           <div class="quiz-button">
-            <a href="<?php echo $guide_groupe["lien-bouton"]["url"];?>"><?php echo $guide_groupe["lien-bouton"]["title"];?><img src="<?php echo $guide_groupe["image-bouton"]["url"];?>" alt="Petite case cocher et point d'interogation"></a>
-            <img class="coeur-img" src="<?php echo $guide_groupe["image"]["url"];?>" alt="triangle violet enthousiaste qui tent les bras pour montrer le bouton">
+            <a href="
+              <?php echo $guide_groupe["lien-bouton"]["url"];?>">
+              <?php echo $guide_groupe["lien-bouton"]["title"];?>
+              <img src="<?php echo $guide_groupe["image-bouton"]["url"];?>" alt="<?php echo $guide_groupe["image-bouton"]["alt"];?>">
+            </a>
+            <img class="coeur-img" src="<?php echo $guide_groupe["image"]["url"];?>" alt="<?php echo $guide_groupe["image-bouton"]["alt"];?>">
           </div>
     </div>
 
@@ -77,13 +81,13 @@
     <section class="categories-section container" id="guide">
       <div class="titre-categories">
         <h1><?php echo $category["titre"];?></h1>
-        <a href="<?php echo $category["lien"]["url"];?>">Voir plus d'articles</a>
+        <a href="<?php echo $category["lien"]["url"];?>"><?php echo $category["lien"]["title"];?></a>
       </div>
       <div class="categories-container">
       <?php foreach ($category['contenu'] as $element): ?>
           <a href="<?php echo ($element["lien-article"]["url"]);?>">
             <div class="categorie-div">
-              <img src="<?php echo ($element['image']['url']);?>" alt="icone de la categorie">
+              <img src="<?php echo ($element['image']['url']);?>" alt="<?php echo ($element['image']['alt']);?>">
               <h3><?php echo ($element['sous-titre']);?></h3>
             </div>
           </a>      
@@ -109,6 +113,9 @@ $category_accompagnement_link = get_category_link($category_accompagnement->term
 $category_loi_link = get_category_link($category_loi->term_id);
 $category_outils_link = get_category_link($category_outils->term_id);
 ?>
+<section class="carousel-container">
+
+
   <section class="carousel-section container">
       <div>
         <h2>Vous accompagnez un patient présentant des comportements sexuels problématiques ou victimes de violences sexuelles ?</h2>
@@ -120,13 +127,13 @@ $category_outils_link = get_category_link($category_outils->term_id);
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_psychosexuel_link); ?>">
                     <h2>Développement psychosexuel</h2>
-                    <img src="http://wordpress.test/wp-content/uploads/2025/01/psychosexuel.svg" alt="symbole sexe féminin et masculin">
+                    <img src="http://wordpress.test/wp-content/uploads/2025/01/psychosexuel.svg" alt="cerveau rose">
                 </a>
             </div>
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_violences_link); ?>">
                     <h2>Violences sexuelles</h2>
-                    <img src="http://wordpress.test/wp-content/uploads/2025/01/violences.svg" alt="symbole sexe féminin et masculin">
+                    <img src="http://wordpress.test/wp-content/uploads/2025/01/violences.svg" alt="coeur violet brisé">
                 </a>
             </div>
             <div class="carousel-item">
@@ -138,24 +145,24 @@ $category_outils_link = get_category_link($category_outils->term_id);
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_accompagnement_link); ?>">
                     <h2>Accompagnement</h2>
-                    <img src="http://wordpress.test/wp-content/uploads/2025/01/accompagnement.svg" alt="autre sujet">
+                    <img src="http://wordpress.test/wp-content/uploads/2025/01/accompagnement.svg" alt="couer rose avec un pansement">
                 </a>
             </div>
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_loi_link); ?>">
                     <h2>La loi</h2>
-                    <img src="http://wordpress.test/wp-content/uploads/2025/01/loi.svg" alt="autre sujet">
+                    <img src="http://wordpress.test/wp-content/uploads/2025/01/loi.svg" alt="balance de justice">
                 </a>
             </div>
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_outils_link); ?>">
                     <h2>Outils</h2>
-                    <img src="http://wordpress.test/wp-content/uploads/2025/01/outils.svg" alt="autre sujet">
+                    <img src="http://wordpress.test/wp-content/uploads/2025/01/outils.svg" alt="Outils">
                 </a>
             </div>
       </div>
     </div>
-  
+    </section> 
   
 
 
