@@ -10,3 +10,13 @@
     }
     
 }
+@media only screen and (max-width: 420px){
+    .composant-image{
+       div{
+        img{
+            max-width: 308px;
+        }
+       } 
+    }
+
+}

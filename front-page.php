@@ -36,9 +36,12 @@
       </div>
       
       <div class="quiz-button">
-        <a href="">Démarrer le quiz<img src="<?php echo $quiz_groupe["bouton-image"]["url"];?>" alt="Petite case cocher et point d'interogation"></a>
-        <img class="coeur-img" src="<?php echo $quiz_groupe["image"]["url"];?>" alt="coeur rose enthousiaste qui tent les bras pour montrer le bouton">
+        <a href="<?php echo $quiz_groupe["lien-bouton"]["url"];?>"
+        ><?php echo $quiz_groupe["lien-bouton"]["title"];?>
+        <img src="<?php echo $quiz_groupe["bouton-image"]["url"];?>" alt="<?php echo $quiz_groupe["bouton-image"]["alt"];?>"></a>
+        <img class="coeur-img" src="<?php echo $quiz_groupe["image"]["url"];?>" alt="<?php echo $quiz_groupe["image"]["alt"];?>">
       </div>
+      
       
 
     </div>

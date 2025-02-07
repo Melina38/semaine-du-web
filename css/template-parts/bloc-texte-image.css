@@ -7,3 +7,11 @@
         align-content: center;
     }
 }
+@media only screen and (max-width: 420px){
+    .composant-bloc-texte-image{
+        padding: 30px 42px 30px 42px;
+        img{
+            width: 308px;
+        }
+    }
+}

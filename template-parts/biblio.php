@@ -8,7 +8,7 @@
 
 
 <section class="biblio-section container">
-        <button id="toggleBibliography" onclick="toggleBibliography()">
+        <button class="button-biblio" id="toggleBibliography" onclick="toggleBibliography()">
         <?php echo($args['titre']); ?>
             <img id="arrowIcon" 
             src="<?php echo($args['image']['url']); ?>" 

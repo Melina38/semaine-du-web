@@ -20,14 +20,20 @@ $category = get_category( get_query_var( 'cat' ) );
 
         $cat_id = $category->cat_ID;
 
-        
-        
-        $posts = get_posts([
-            'category' => $cat_id
-        ]); 
-        
+        $posts_per_page = 50;
 
+        
+        $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+        
+        
+        $args = [
+            'cat' => $cat_id,
+            'posts_per_page' => $posts_per_page,
+            'paged' => $paged
+        ];
+        $query = new WP_Query($args);
 
+        // autre manière de faire
         //foreach($posts as $post){
             //echo '<div class="article-preview">';
             //echo '<img src="'. get_the_post_thumbnail_url($post->ID).'" alt="image de l\'article">';

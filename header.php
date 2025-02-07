@@ -45,7 +45,7 @@
   </header>
   <header class="header-mobile">
         <div class="header-container">
-            <img src="images/logosexo.svg" alt="logo">
+            <img src="http://wordpress.test/wp-content/uploads/2025/02/logosexo.svg" alt="logo">
             <div class="baseline">
                 <p>Proposer le soin le plus adapté aux besoins du mineur</p>
             </div>
@@ -59,27 +59,27 @@
 
     <nav id="mobile-menu" class="mobile-menu">
         <button id="close-menu" class="close-menu"> 
-            <img src="images/croix.svg" alt="Fermer" class="close-icon">
+            <img src="http://wordpress.test/wp-content/uploads/2025/02/croix.svg" alt="Fermer" class="close-icon">
         </button> 
         <ul>
-            <li><a href="#">DÉVELOPEMENT PSYCHOSEXUEL</a></li>
-            <li><a href="#">VIOLENCES SEXUELLES</a></li>
-            <li><a href="#">ORIENTATION & IDENTITÉ</a></li>
-            <li><a href="#">ACCOMPAGNEMENT</a></li>
-            <li><a href="#">LA LOI</a></li>
-            <li><a href="#">OUTILS</a></li>
-            <li><a href="#">À PROPOS</a></li>
+            <li><a href="http://wordpress.test/index.php/category/developpement-psychosexuel-de-lenfant/">DÉVELOPEMENT PSYCHOSEXUEL</a></li>
+            <li><a href="http://wordpress.test/index.php/category/violences-sexuelles/">VIOLENCES SEXUELLES</a></li>
+            <li><a href="http://wordpress.test/index.php/category/sexulaite_et_genre/">SÉXUALITÉ ET GENRE</a></li>
+            <li><a href="http://wordpress.test/index.php/category/accompagnement/">ACCOMPAGNEMENT</a></li>
+            <li><a href="http://wordpress.test/index.php/category/la-loi/">LA LOI</a></li>
+            <li><a href="http://wordpress.test/index.php/category/les-outils/">OUTILS</a></li>
+            <li><a href="http://wordpress.test/index.php/a-propos/">À PROPOS</a></li>
         </ul>
         <div class="menu-actions">
             <form role="search" method="get" id="searchform" class="searchform-mobile" action="<?php echo home_url( '/' ); ?>">
                 <input type="text" value="" name="s" id="s" placeholder="Rechercher..." />
                 <button type="submit" id="searchsubmit">
                     <i class="fa fa-search"></i>
-                    <img src="images/loupe.svg" alt="Rechercher" class="search-icon">
+                    <img src="http://wordpress.test/wp-content/uploads/2025/02/loupe.svg" alt="Rechercher" class="search-icon">
                 </button>
             </form>
             
-            <button class="quiz-btn"> <img src="images/quiz.svg" alt="Quiz" class="quiz-icon">QUIZ</button>
+            <button class="quiz-btn"> <img src="http://wordpress.test/wp-content/uploads/2025/01/quiz.svg" alt="Quiz" class="quiz-icon">QUIZ</button>
         </div>
     </nav>
 

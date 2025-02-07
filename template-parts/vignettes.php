@@ -7,7 +7,7 @@
 <?php foreach($args['blocs'] as $bloc): ?>
     <div>
         <div class="categorie-div">
-          <img src="<?php echo($bloc['image']['url']); ?>" alt="<?php echo $args["image"]["alt"];?>">
+          <img src="<?php echo($bloc['image']['url']); ?>" alt="<?php echo $blocs["image"]["alt"];?>">
           <p><?php echo($bloc['texte']); ?></p>
         </div>
     </div>

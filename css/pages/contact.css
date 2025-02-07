@@ -21,6 +21,7 @@
 }
 .wpforms-submit-container{
     text-align: right !important;
+    margin-bottom: 60px !important;
 }
 .wpforms-submit{
     border-radius: 100px !important;
@@ -35,4 +36,10 @@
 .wpforms-submit:hover{
     color: white !important;
     background-color: #333D7B !important;
+}
+@media only screen and (max-width: 420px){
+    .contact-section{
+        margin-top: 70px;
+    }
+    
 }
