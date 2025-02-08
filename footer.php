@@ -54,7 +54,7 @@ $category_outils_link = get_category_link($category_outils->term_id);
     </section>
     <div class="legal-container">
         <ul>
-            <li><a href="">Mentions légales</a></li>
+            <li><a href="http://wordpress.test/index.php/mentionlegales/">Mentions légales</a></li>
             
             <li>
                 <p class="texte">@2025 Étudiants MMI</p>

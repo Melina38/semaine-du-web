@@ -413,6 +413,10 @@
     color: #333D7B;
     border-radius: 50px;
     overflow: hidden; /* Empêche tout débordement */
+    input{
+        color: #333D7B;
+        background-color: #FFE2CC;
+    }
 }
 
 .searchform-mobile input[type="text"] {
@@ -429,6 +433,7 @@
 
 .searchform-mobile input[type="text"]::placeholder {
     color: #333D7B; /* Remplacez cette couleur par celle que vous souhaitez */
+    background-color: #FFE2CC;
 } 
 
 .searchform-mobile button {

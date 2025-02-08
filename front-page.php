@@ -116,13 +116,19 @@ $category_accompagnement_link = get_category_link($category_accompagnement->term
 $category_loi_link = get_category_link($category_loi->term_id);
 $category_outils_link = get_category_link($category_outils->term_id);
 ?>
+<?php
+    $carrousel = get_field("carrousel");
+    //echo('<pre>');
+    //var_dump($carrousel);
+    //echo('</pre>');
+  ?>
 <section class="carousel-container">
 
 
   <section class="carousel-section container">
       <div>
-        <h2>Vous accompagnez un patient présentant des comportements sexuels problématiques ou victimes de violences sexuelles ?</h2>
-        <h3>Explorez nos différentes catégories et trouvez les ressources adaptées à chaque situation !</h3>
+        <h2><?php echo $carrousel["titre"];?></h2>
+        <h3><?php echo $carrousel["sous-titre"];?></h3>
       </div>
   </section>
       <div class="carousel-container">

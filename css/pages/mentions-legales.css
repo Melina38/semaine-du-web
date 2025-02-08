@@ -1,0 +1,22 @@
+.mentions-legales{
+    margin-bottom: 90px;
+    h1{
+        margin-top: 50px;
+    }
+    div{
+        h2{
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+        p{
+            a{
+                color: #333D7B;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 420px){
+    .mentions-legales{
+        padding-top: 50px;
+    }
+}

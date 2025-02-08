@@ -9,6 +9,8 @@
     wp_enqueue_style('contact-style', get_template_directory_uri() . '/css/pages/contact.css', false);
     wp_enqueue_style('quiz-style', get_template_directory_uri() . '/css/pages/quiz.css', false);
     wp_enqueue_style('propos-style', get_template_directory_uri() . '/css/pages/propos.css', false);
+    wp_enqueue_style('mentions-legales-style', get_template_directory_uri() . '/css/pages/mentions-legales.css', false);
+    wp_enqueue_style('erreur-style', get_template_directory_uri() . '/css/pages/erreur.css', false);
 
 
     wp_enqueue_style('citation-style', get_template_directory_uri() . '/css/template-parts/citation.css', false);
