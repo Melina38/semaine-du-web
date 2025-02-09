@@ -21,7 +21,7 @@
 
 
 .quiz-container{
-    background-image: url(http://wordpress.test/wp-content/uploads/2025/01/bulle-gauche.svg) ;
+    background-image: url(https://www.sexoproinfo.com/wp-content/uploads/2025/01/bulle-gauche.svg) ;
     background-size: contain;
     background-repeat: no-repeat;
     padding: 100px;
@@ -83,7 +83,7 @@
 
 
 .guide-container{
-    background-image: url(http://wordpress.test/wp-content/uploads/2025/01/bulle-droite.svg) ;
+    background-image: url(https://www.sexoproinfo.com/wp-content/uploads/2025/01/bulle-droite.svg) ;
     background-size: contain;
     background-repeat: no-repeat;
     padding: 100px;
@@ -141,33 +141,7 @@
 }
 
 
-/* Carousel 
-.carousel-div{
-    max-width: 345px;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-    background-color: rgba(133, 139, 176, 0.12);
-    border-radius: 12px;
-    
-}
 
-.lien-carousel{
-    text-decoration: none;
-    
-    height: auto;
-    
-
-    h2{
-        max-width: 285px;
-        
-    }
-    
-}
- */   
 /* Carousel */
 .carousel-container{
     background-color: #FCE4CA;

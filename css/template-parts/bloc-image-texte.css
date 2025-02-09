@@ -5,6 +5,9 @@
 
     div{
         align-content: center;
+        ul{
+            list-style: inside disc;
+        }
     }
 }
 @media only screen and (max-width: 420px){

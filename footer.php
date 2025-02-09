@@ -2,7 +2,7 @@
 // Obtenir les objets de catégorie
 $category_psychosexuel = get_category_by_slug('developpement-psychosexuel-de-lenfant');
 $category_violences = get_category_by_slug('violences-sexuelles');
-$category_genre = get_category_by_slug('sexulaite_et_genre');
+$category_genre = get_category_by_slug('sexualite_et_genre');
 $category_accompagnement = get_category_by_slug('accompagnement');
 $category_loi = get_category_by_slug('la-loi');
 $category_outils = get_category_by_slug('les-outils');
@@ -20,7 +20,7 @@ $category_outils_link = get_category_link($category_outils->term_id);
     <section class="boite container">
 
         <div class="logo">
-            <a href="http://wordpress.test/"><img src="<?php echo get_template_directory_uri();?>/img/logo-footer.svg" alt="logo"></a>
+            <a href="http://sexoproinfo.com/"><img src="<?php echo get_template_directory_uri();?>/img/logo-footer.svg" alt="logo"></a>
         </div>
 
         <div class="categories">
@@ -43,18 +43,18 @@ $category_outils_link = get_category_link($category_outils->term_id);
 
         <div class="autre">
             <ul class="col-quiz">
-                <li><a href="http://wordpress.test/index.php/quiz/">Quiz</a></li>
+                <li><a href="http://sexoproinfo.com/index.php/quiz/">Quiz</a></li>
                 </ul>
             <ul class="contact">
-                <li><a href="http://wordpress.test/index.php/contact/">Me contacter</a></li>
-                <li><a href="http://wordpress.test/index.php/a-propos/">À propos</a></li>
+                <li><a href="http://sexoproinfo.com/index.php/contact/">Me contacter</a></li>
+                <li><a href="http://sexoproinfo.com/index.php/a-propos/">À propos</a></li>
             </ul>
 
         </div>
     </section>
     <div class="legal-container">
         <ul>
-            <li><a href="http://wordpress.test/index.php/mentions-legales/">Mentions légales</a></li>
+            <li><a href="http://sexoproinfo.com/index.php/mentions-legales/">Mentions légales</a></li>
             
             <li>
                 <p class="texte">@2025 Étudiants MMI</p>

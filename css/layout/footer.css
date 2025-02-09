@@ -3,70 +3,8 @@ Theme Name : sexo-pro-info
 Version:1.0.0
 */
 
-/*
-.footer{
-    background-color: white !important;
-}
-.footer-container{
-    display: flex;
-    padding: 47px 0 10px 0;
 
-
-}
-.legal-container{
-    display: flex;
-    justify-content: right; 
-    
-    padding-bottom: 27px;
-    padding-right: 42px;
-}
-
-
-.colonne1{
-    margin-bottom: 14px;
-    width: 245px;
-}
-.colonne2{
-    margin-bottom: 14px;
-    width: 130px;
-}
-.colonne3{
-    margin-left: 32px;
-}
-.liens-footer{
-    color: #333D7B;
-    size: 1em;  
-    text-decoration: none;
-
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.liens-footer:hover{
-    color: #333D7B;
-    text-decoration: underline;
-}
-.credit-footer{
-    color: #333D7B;
-    size: 0.75em;
-
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.liens-bas-footer{
-    color: #333D7B;
-    size: 0.75em;  
-    text-decoration: none;
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-}
-.logo-footer{
-    margin-right: 195px;
-}
-*/
-/*css elsy*/
+/*css*/
 
 footer {
     background-color: white;

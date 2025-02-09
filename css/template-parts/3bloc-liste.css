@@ -1,38 +1,46 @@
-.composant-3bloc-liste{
+.composant-3bloc-liste {
     display: flex;
+    flex-wrap: wrap; /* Permet aux éléments de passer à la ligne suivante si nécessaire */
     gap: 20px;
-    padding: 30px 0 30px 0;
+    padding: 30px 0;
     align-content: center;
     justify-content: center;
-    
-    div{
-        
-        div{
-            background-color: rgba(244, 137, 172, 0.12);
-            border-radius: 12px;
-            padding: 13px 10px 7px 10px;
-            width: 225px;
-            height: 195px;
-            
-            text-align: center;
+}
 
-            h3{
-                height: 40px;
-            }
-            ul{
-                margin-top: 20px;
-                text-align: center;
+.composant-3bloc-liste > div {
+    flex: 1 1 225px; /* Permet aux éléments de s'étendre et de se réduire */
+    max-width: 225px; /* Limite la largeur maximale des éléments */
+    display: flex;
+}
 
+.composant-3bloc-liste > div > div {
+    background-color: rgba(244, 137, 172, 0.12);
+    border-radius: 12px;
+    padding: 13px 10px 7px 10px;
+    width: 100%; /* Utilise toute la largeur disponible */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    align-items: center;
+}
 
-                font-family: "Lato", sans-serif;
-                font-weight: 400;
-                font-style: normal;
-                color: #333D7B;
-                font-size: 1rem;
-                line-height: 22px;
-                justify-content: right;
-            }
-        }
-        
+.composant-3bloc-liste h3 {
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.composant-3bloc-liste ul {
+    list-style: inside disc;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #333D7B;
+    font-size: 1rem;
+    line-height: 22px;
+    ul li{
+        text-align: center;
+        margin-bottom: 6px;
+
     }
 }

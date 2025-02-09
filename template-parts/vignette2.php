@@ -4,7 +4,7 @@
     <div>
         <div>
           <h3><?php echo($bloc['titre']); ?></h3>
-          <img src="<?php echo($bloc['image']['url']); ?>" alt="<?php echo $blocs["image"]["alt"];?>">
+          <img src="<?php echo($bloc['image']['url']); ?>" alt="<?php echo ($bloc["image"]["alt"]);?>">
           <p><?php echo($bloc['texte']); ?></p>
         </div>
     </div>

@@ -29,13 +29,13 @@
 
   <section class="chemin-section container">
     <div class="quiz-container">
-  <!--<img src="http://wordpress.test/wp-content/uploads/2025/01/bulle-gauche.svg" alt="coeur rose enthousiaste qui tent les bras pour montrer le bouton"> -->
       <div class="quiz-text">
         <h2><?php echo $quiz_groupe["titre"];?></h2>
         <h3><?php echo $quiz_groupe["sous-titre"];?></h3>
       </div>
       
       <div class="quiz-button">
+        
         <a href="<?php echo $quiz_groupe["lien-bouton"]["url"];?>"
         ><?php echo $quiz_groupe["lien-bouton"]["title"];?>
         <img src="<?php echo $quiz_groupe["bouton-image"]["url"];?>" alt="<?php echo $quiz_groupe["bouton-image"]["alt"];?>"></a>
@@ -63,6 +63,7 @@
         </div>
           
           <div class="quiz-button">
+            
             <a href="
               <?php echo $guide_groupe["lien-bouton"]["url"];?>">
               <?php echo $guide_groupe["lien-bouton"]["title"];?>
@@ -103,7 +104,7 @@
 // Obtenir les objets de catégorie
 $category_psychosexuel = get_category_by_slug('developpement-psychosexuel-de-lenfant');
 $category_violences = get_category_by_slug('violences-sexuelles');
-$category_genre = get_category_by_slug('sexulaite_et_genre');
+$category_genre = get_category_by_slug('sexualite_et_genre');
 $category_accompagnement = get_category_by_slug('accompagnement');
 $category_loi = get_category_by_slug('la-loi');
 $category_outils = get_category_by_slug('les-outils');
@@ -136,37 +137,37 @@ $category_outils_link = get_category_link($category_outils->term_id);
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_psychosexuel_link); ?>">
                     <h2>Développement psychosexuel</h2>
-                    <img src="http://wordpress.test/wp-content/uploads/2025/01/psychosexuel.svg" alt="cerveau rose">
+                    <img src="https://www.sexoproinfo.com/wp-content/uploads/2025/01/psychosexuel.svg" alt="cerveau rose">
                 </a>
             </div>
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_violences_link); ?>">
                     <h2>Violences sexuelles</h2>
-                    <img src="http://wordpress.test/wp-content/uploads/2025/01/violences.svg" alt="coeur violet brisé">
+                    <img src="http://www.sexoproinfo.com/wp-content/uploads/2025/01/violences.svg" alt="coeur violet brisé">
                 </a>
             </div>
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_genre_link); ?>">
                     <h2>Sexualité et genre</h2>
-                    <img src="http://wordpress.test/wp-content/uploads/2025/01/sexualite.svg" alt="symbole sexe féminin et masculin">
+                    <img src="http://www.sexoproinfo.com/wp-content/uploads/2025/01/sexualite.svg" alt="symbole sexe féminin et masculin">
                 </a>
             </div>
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_accompagnement_link); ?>">
                     <h2>Accompagnement</h2>
-                    <img src="http://wordpress.test/wp-content/uploads/2025/01/accompagnement.svg" alt="couer rose avec un pansement">
+                    <img src="http://www.sexoproinfo.com/wp-content/uploads/2025/01/accompagnement.svg" alt="couer rose avec un pansement">
                 </a>
             </div>
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_loi_link); ?>">
                     <h2>La loi</h2>
-                    <img src="http://wordpress.test/wp-content/uploads/2025/01/loi.svg" alt="balance de justice">
+                    <img src="http://www.sexoproinfo.com/wp-content/uploads/2025/01/loi.svg" alt="balance de justice">
                 </a>
             </div>
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_outils_link); ?>">
                     <h2>Outils</h2>
-                    <img src="http://wordpress.test/wp-content/uploads/2025/01/outils.svg" alt="Outils">
+                    <img src="http://www.sexoproinfo.com/wp-content/uploads/2025/01/outils.svg" alt="Outils">
                 </a>
             </div>
       </div>

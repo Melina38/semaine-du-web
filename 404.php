@@ -21,7 +21,7 @@
 <div>
     <section class="erreur-section container">
         <div class="img-div">
-            <img src="http://wordpress.test/wp-content/uploads/2025/01/orange.svg" alt="coeur orange brisé qui pleure">
+            <img src="http://sexoproinfo.com/wp-content/uploads/2025/01/orange.svg" alt="coeur orange brisé qui pleure">
         </div>
         <div class="erreur-container">
             <div class="texte-div">
@@ -31,8 +31,8 @@
                 </h3>
             </div>
             <div class="quiz-button">
-                <a href="http://wordpress.test/" class="btn">Retourner à l'accueil</a>
-                <img class="coeur-img" src="http://wordpress.test/wp-content/uploads/2025/01/coeur-quiz.svg" alt="coeur rose qui montre le bouton">
+                <a href="http://sexoproinfo.com/" class="btn">Retourner à l'accueil</a>
+                <img class="coeur-img" src="http://sexoproinfo.com/wp-content/uploads/2025/01/coeur-quiz.svg" alt="coeur rose qui montre le bouton">
             </div>
         </div>
     </section>
