@@ -20,7 +20,7 @@ $category_outils_link = get_category_link($category_outils->term_id);
     <section class="boite container">
 
         <div class="logo">
-            <a href="http://sexoproinfo.com/"><img src="<?php echo get_template_directory_uri();?>/img/logo-footer.svg" alt="logo"></a>
+            <a href="https://sexoproinfo.com/"><img src="<?php echo get_template_directory_uri();?>/img/logo-footer.svg" alt="logo"></a>
         </div>
 
         <div class="categories">
@@ -43,18 +43,18 @@ $category_outils_link = get_category_link($category_outils->term_id);
 
         <div class="autre">
             <ul class="col-quiz">
-                <li><a href="http://sexoproinfo.com/index.php/quiz/">Quiz</a></li>
+                <li><a href="https://sexoproinfo.com/index.php/quiz/">Quiz</a></li>
                 </ul>
             <ul class="contact">
-                <li><a href="http://sexoproinfo.com/index.php/contact/">Me contacter</a></li>
-                <li><a href="http://sexoproinfo.com/index.php/a-propos/">À propos</a></li>
+                <li><a href="https://sexoproinfo.com/index.php/contact/">Me contacter</a></li>
+                <li><a href="https://sexoproinfo.com/index.php/a-propos/">À propos</a></li>
             </ul>
 
         </div>
     </section>
     <div class="legal-container">
         <ul>
-            <li><a href="http://sexoproinfo.com/index.php/mentions-legales/">Mentions légales</a></li>
+            <li><a href="https://sexoproinfo.com/index.php/mentions-legales/">Mentions légales</a></li>
             
             <li>
                 <p class="texte">@2025 Étudiants MMI</p>
