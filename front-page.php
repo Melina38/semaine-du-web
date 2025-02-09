@@ -143,49 +143,37 @@ $category_outils_link = get_category_link($category_outils->term_id);
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_violences_link); ?>">
                     <h2>Violences sexuelles</h2>
-                    <img src="http://www.sexoproinfo.com/wp-content/uploads/2025/01/violences.svg" alt="coeur violet brisé">
+                    <img src="https://www.sexoproinfo.com/wp-content/uploads/2025/01/violences.svg" alt="coeur violet brisé">
                 </a>
             </div>
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_genre_link); ?>">
                     <h2>Sexualité et genre</h2>
-                    <img src="http://www.sexoproinfo.com/wp-content/uploads/2025/01/sexualite.svg" alt="symbole sexe féminin et masculin">
+                    <img src="https://www.sexoproinfo.com/wp-content/uploads/2025/01/sexualite.svg" alt="symbole sexe féminin et masculin">
                 </a>
             </div>
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_accompagnement_link); ?>">
                     <h2>Accompagnement</h2>
-                    <img src="http://www.sexoproinfo.com/wp-content/uploads/2025/01/accompagnement.svg" alt="couer rose avec un pansement">
+                    <img src="https://www.sexoproinfo.com/wp-content/uploads/2025/01/accompagnement.svg" alt="couer rose avec un pansement">
                 </a>
             </div>
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_loi_link); ?>">
                     <h2>La loi</h2>
-                    <img src="http://www.sexoproinfo.com/wp-content/uploads/2025/01/loi.svg" alt="balance de justice">
+                    <img src="https://www.sexoproinfo.com/wp-content/uploads/2025/01/loi.svg" alt="balance de justice">
                 </a>
             </div>
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_outils_link); ?>">
                     <h2>Outils</h2>
-                    <img src="http://www.sexoproinfo.com/wp-content/uploads/2025/01/outils.svg" alt="Outils">
+                    <img src="https://www.sexoproinfo.com/wp-content/uploads/2025/01/outils.svg" alt="Outils">
                 </a>
             </div>
       </div>
     </div>
     </section> 
-  
 
-
-
-
-<!--
-<div class="carousel-div container">
-  <a class="lien-carousel" href="">
-    <h2>Orientation sexuelle et identité de genre</h2>
-    <img src="http://wordpress.test/wp-content/uploads/2025/01/sexualite.svg" alt="symbole sexe féminin et masculin">
-  </a>
-</div>
--->
 
 
 
