@@ -1,6 +1,6 @@
 .composant-image{
-    margin: auto;
-    padding: 30px 0 30px 0;
+    margin:30px auto;
+    
     display: flex;
     justify-content: center;
     div{
@@ -14,7 +14,7 @@
     .composant-image{
        div{
         img{
-            max-width: 308px;
+            max-width: 100%;
         }
        } 
     }

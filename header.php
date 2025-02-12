@@ -64,7 +64,7 @@
         <ul>
             <li><a href="https://sexoproinfo.com/index.php/category/developpement-psychosexuel-de-lenfant/">DÉVELOPEMENT PSYCHOSEXUEL</a></li>
             <li><a href="https://sexoproinfo.com/index.php/category/violences-sexuelles/">VIOLENCES SEXUELLES</a></li>
-            <li><a href="https://sexoproinfo.com/index.php/category/sexulaite_et_genre/">SÉXUALITÉ ET GENRE</a></li>
+            <li><a href="https://sexoproinfo.com/index.php/category/sexulaite_et_genre/">SEXUALITÉ ET GENRE</a></li>
             <li><a href="https://sexoproinfo.com/index.php/category/accompagnement/">ACCOMPAGNEMENT</a></li>
             <li><a href="https://sexoproinfo.com/index.php/category/la-loi/">LA LOI</a></li>
             <li><a href="https://sexoproinfo.com/index.php/category/les-outils/">OUTILS</a></li>

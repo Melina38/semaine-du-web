@@ -157,7 +157,6 @@ footer {
     }
 
     .boite {
-        width: 390px;
         padding: 25px 41px 20px 41px;
         display: flex;
         flex-direction: column;

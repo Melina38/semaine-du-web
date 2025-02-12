@@ -52,7 +52,7 @@ $category_outils_link = get_category_link($category_outils->term_id);
 
         </div>
     </section>
-    <div class="legal-container">
+    <div class="legal-container container">
         <ul>
             <li><a href="https://sexoproinfo.com/index.php/mentions-legales/">Mentions légales</a></li>
             

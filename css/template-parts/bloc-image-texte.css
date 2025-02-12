@@ -12,11 +12,11 @@
 }
 @media only screen and (max-width: 420px){
     .composant-bloc-image-texte{
-        padding: 30px 42px 30px 42px;
        
             img{
                 width: 223px;
                 height: 230px;
+                margin: 0 auto;
             }
         
     }
