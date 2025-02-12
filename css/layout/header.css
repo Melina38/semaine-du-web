@@ -169,7 +169,7 @@
     }
 }
 /* Media query pour afficher le header desktop sur les écrans de plus de 420px */
-@media (min-width: 421px) {
+@media (min-width: 420px) {
     .header {
         display: flex; /* Afficher le header desktop */
     }
@@ -224,7 +224,7 @@
     z-index: 1001; /* le header doit être sous le menu */
     transition: background-color 0.3s ease;
     padding-top: 43px;
-    /*padding-bottom: 43px;*/
+    padding-bottom: 23px;
 }
 
 .header-container {
@@ -333,6 +333,11 @@
 .menu-actions {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    a{
+        text-decoration: none;
+        align-items: center;
+    }
     
 
     form{
@@ -482,6 +487,7 @@
 @media only screen and (max-width: 420px) {
     .header-container {
         max-width: 100%;
+        gap: 10px;
     }
     .menu-actions {
         align-items: center; /* Centrer les éléments */

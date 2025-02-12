@@ -14,7 +14,8 @@
     .composant-bloc-texte-image{
         padding: 30px 42px 30px 42px;
         img{
-            width: 308px;
+            width: 223px;
+            height: 230px;
         }
     }
 }

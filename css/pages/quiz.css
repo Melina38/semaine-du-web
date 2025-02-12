@@ -33,8 +33,9 @@ iframe{
         margin-top: 30px;
     }
     .quiz-section{
+        margin-bottom: 30px;
         div{
-            margin: 0;
+            margin-top: 120px;
             h1{
                 margin-top: 50px;
             }

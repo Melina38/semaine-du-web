@@ -45,7 +45,7 @@
   </header>
   <header class="header-mobile">
         <div class="header-container">
-            <img src="https://sexoproinfo.com/wp-content/uploads/2025/02/logosexo.svg" alt="logo">
+            <a href="https://sexoproinfo.com/"><img src="https://www.sexoproinfo.com/wp-content/uploads/2025/01/logo-footer.svg" alt="logo"></a>
             <div class="baseline">
                 <p>Proposer le soin le plus adapté aux besoins du mineur</p>
             </div>
@@ -79,7 +79,7 @@
                 </button>
             </form>
             
-            <button class="quiz-btn"> <img src="https://sexoproinfo.com/wp-content/uploads/2025/01/quiz.svg" alt="Quiz" class="quiz-icon">QUIZ</button>
+            <a href="https://sexoproinfo.com/index.php/quiz/" class="quiz-btn"> <img src="https://sexoproinfo.com/wp-content/uploads/2025/01/quiz.svg" alt="Quiz" class="quiz-icon">QUIZ</a>
         </div>
     </nav>
 

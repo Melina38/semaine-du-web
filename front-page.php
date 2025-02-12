@@ -132,7 +132,7 @@ $category_outils_link = get_category_link($category_outils->term_id);
         <h3><?php echo $carrousel["sous-titre"];?></h3>
       </div>
   </section>
-      <div class="carousel-container">
+      <div>
         <div class="carousel">
             <div class="carousel-item">
                 <a class="lien-carousel" href="<?php echo esc_url($category_psychosexuel_link); ?>">

@@ -13,8 +13,8 @@ footer {
     display: flex;
     /* Utilisation de Flexbox sur le footer pour aligner les éléments */
     flex-direction: column;
-    /* Organiser les éléments du footer de manière verticale */
-    justify-content: flex-end;
+    /* Organiser les éléments du footer de manière verticale 
+    justify-content: flex-end;*/
 }
 .contenu-footer{
     flex: 1;
@@ -26,6 +26,7 @@ footer {
     flex-direction: row;
     justify-content: space-between;
     background-color: white;
+    
 }
 .categories li{
     margin-bottom: 14px;
@@ -151,8 +152,8 @@ footer {
 @media all and (max-width: 420px) {
     
     footer {
-        width: 390px;
-        height: 285px;
+        max-width: 100%;
+        height: 300px;
     }
 
     .boite {
@@ -214,7 +215,7 @@ footer {
         align-items: center;
         justify-content: center;
         margin: 0 auto; 
-        margin-top: 20px;
+        margin-top: 40px;
 }
     .col-quiz {
         width: 27px; /* Les éléments s'ajustent automatiquement à leur contenu */
