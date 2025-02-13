@@ -101,6 +101,7 @@ footer {
     display: flex;
     align-items: center;
     margin-right: 0px;
+    flex-direction: row-reverse;
     ul{
         margin-bottom: 20px;
     }
